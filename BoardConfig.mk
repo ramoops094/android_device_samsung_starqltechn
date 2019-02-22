@@ -24,6 +24,9 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := kryo385
 
+# APEX
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
 # Audio
 TARGET_PROVIDES_AUDIO_EXTNS := true
 
@@ -116,7 +119,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2022-05-01
 
-# SEPolicy
+# SEPolicy 
 include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 
 # VNDK
