@@ -802,7 +802,6 @@ vendor/lib/libvpplibrary.so
 vendor/lib/libvpptestutils.so
 vendor/lib/vendor.qti.hardware.vpp@1.1.so
 vendor/lib/vendor.qti.hardware.vpp@1.2.so
-vendor/lib/vndk/libstagefright_foundation.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libFlacSwDec.so
@@ -1489,8 +1488,6 @@ vendor/lib/vendor.qti.hardware.automotive.vehicle@1.0.so
 vendor/lib/vendor.qti.hardware.cacert@1.0.so
 vendor/lib/vendor.qti.hardware.cryptfshw@1.0.so
 vendor/lib/vendor.qti.hardware.qseecom@1.0.so
-vendor/lib/vndk/libstagefright_omx_utils.so
-vendor/lib/vndk/libstagefright_xmlparser.so
 vendor/lib/W08QS_libTsAeFront.so
 vendor/lib/W08QS_libTsAfFront.so
 vendor/lib/W08QS_libTsAwbFront.so
@@ -1611,8 +1608,6 @@ vendor/lib64/vendor.qti.hardware.cryptfshw@1.0.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 vendor/lib64/vendor.trustonic.tee@1.0.so
 vendor/lib64/vendor.trustonic.teeregistry@1.0.so
-vendor/lib64/vndk/libcrypto.so
-vendor/lib64/vndk/libssl.so
 vendor/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.prototxt
 vendor/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn_light.caffemodel
 vendor/saiv/image_understanding/db/aic_detector/aic_detector_cnn.prototxt
