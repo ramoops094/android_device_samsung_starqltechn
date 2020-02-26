@@ -1,3 +1,6 @@
+# Fastbootd
+ro.fastbootd.available=true
+
 # Samsung specific
 ro.product_ship=true
 # Set csc support in OMX
