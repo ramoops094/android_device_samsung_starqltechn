@@ -35,6 +35,7 @@ persist.vendor.radio.atfwd.start=true
 qemu.hw.mainkeys=0
 ro.af.client_heap_size_kbyte=7168
 ro.bluetooth.a2dp_offload.supported=true
+ro.fastbootd.available=true
 ro.frp.pst=/dev/block/persistent
 ro.hardware.egl=adreno
 ro.hardware.keystore=mdfpp
