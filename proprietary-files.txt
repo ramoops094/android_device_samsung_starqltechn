@@ -1084,8 +1084,6 @@ vendor/lib64/libsubsystem_control.so
 
 # Samsung
 vendor/etc/init/hw/init.samsung.bsp.rc
-vendor/etc/init/hw/init.samsung.display.rc
-vendor/etc/init/hw/init.samsung.rc
 vendor/lib/hw/com.samsung.chi.override.so
 vendor/lib/libDLInterface.camera.samsung.so
 vendor/lib/libOpenCv.camera.samsung.so
