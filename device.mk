@@ -305,6 +305,9 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl:64 \
     android.hardware.sensors@1.0-service
 
+# Treble
+PRODUCT_USE_VNDK_OVERRIDE := true
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.samsung
