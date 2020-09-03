@@ -317,7 +317,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors-service.samsung-multihal \
     android.hardware.sensors@1.0-impl:64 \
-    android.hardware.sensors@1.0-service
+    android.hardware.sensors@1.0-service \
+    libsensorndkbridge \
+    libshim_sensorndkbridge
 
 # Treble
 PRODUCT_USE_VNDK_OVERRIDE := true

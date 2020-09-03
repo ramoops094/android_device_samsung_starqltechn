@@ -36,6 +36,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v30.so" "${2}"
             ;;
+        vendor/lib*/libsensorlistener.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --add-needed "libshim_sensorndkbridge.so" "${2}"
+            ;;
     esac
 }
 
