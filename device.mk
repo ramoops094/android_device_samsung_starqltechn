@@ -239,7 +239,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.0.vendor
+    android.hardware.power-service-qti
 
 # Perf
 PRODUCT_PACKAGES += \
