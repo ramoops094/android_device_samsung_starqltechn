@@ -24,6 +24,10 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     tinymix
 
+# Configstore
+PRODUCT_PACKAGES += \
+    disable_configstore
+
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := xlarge
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
