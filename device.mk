@@ -214,6 +214,9 @@ PRODUCT_PACKAGES += \
     NfcNci \
     Tag
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/nfc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
