@@ -236,8 +236,6 @@ vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 # Camera
 lib/libchromaflash.so
 lib64/libseemore.so
-vendor/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service
-vendor/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib/android.hardware.camera.provider@2.5-legacy.so
 vendor/lib/camera/com.qti.sensor.imx318.so
@@ -283,7 +281,6 @@ vendor/lib/camera/s5k5f1sxtuned.bin
 vendor/lib/camera/systemdefault.bin
 vendor/lib/camera/titan17x_usecases.bin
 vendor/lib/hw/camera.qcom.so
-vendor/lib/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so
 vendor/lib/libcamera_nn_stub.so
 vendor/lib/libcamxfdalgov7.so
 vendor/lib/libcamxfdengine.so
@@ -305,9 +302,6 @@ vendor/lib/libvdis_core.so
 vendor/lib/libvdis_interface.so
 vendor/lib/libvideoutils.so
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so
-vendor/lib/vendor.samsung.hardware.camera.device@1.0.so
-vendor/lib/vendor.samsung.hardware.camera.device@4.0.so
-vendor/lib/vendor.samsung.hardware.camera.provider@3.0.so
 vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib64/camera/components/com.qti.eisv2.so
 vendor/lib64/camera/components/com.qti.eisv3.so
@@ -319,7 +313,6 @@ vendor/lib64/camera/components/com.qti.stats.awb.so
 vendor/lib64/camera/components/com.qti.stats.pdlib.so
 vendor/lib64/camera/components/com.qti.stats.pdlibsony.so
 vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so
-vendor/lib64/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcamxfdalgov7.so
 vendor/lib64/libcamxfdengine.so
@@ -337,9 +330,6 @@ vendor/lib64/libswvdec.so
 vendor/lib64/libvdis_core.so
 vendor/lib64/libvdis_interface.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
-vendor/lib64/vendor.samsung.hardware.camera.device@1.0.so
-vendor/lib64/vendor.samsung.hardware.camera.device@4.0.so
-vendor/lib64/vendor.samsung.hardware.camera.provider@3.0.so
 
 # Camera-arcsoft
 vendor/lib/libarcsoft_super_night_raw.so
@@ -1163,8 +1153,6 @@ vendor/lib/lib_SoundAlive_AlbumArt_ver105.so
 vendor/lib/lib_SoundAlive_play_plus_ver210.so
 vendor/lib/lib_SoundAlive_SRC384_ver320.so
 vendor/lib/soundfx/libsamsungSoundbooster_plus.so
-vendor/lib/vendor.samsung.camera.device@1.0-impl.so
-vendor/lib/vendor.samsung.camera.device@4.0-impl.so
 vendor/lib64/libDLInterface.camera.samsung.so
 vendor/lib64/libOpenCv.camera.samsung.so
 vendor/lib64/libxcv.camera.samsung.so
@@ -1172,8 +1160,6 @@ vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
 vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so
 vendor/lib64/lib_SoundAlive_play_plus_ver210.so
 vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
-vendor/lib64/vendor.samsung.camera.device@1.0-impl.so
-vendor/lib64/vendor.samsung.camera.device@4.0-impl.so
 vendor/lib64/vendor.samsung.hardware.authfw@1.0.so
 vendor/lib64/vendor.samsung.hardware.base@1.0.so
 vendor/lib64/vendor.samsung.hardware.media.converter@1.0.so
