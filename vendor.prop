@@ -140,9 +140,6 @@ debug.stagefright.omx_default_rank.sw-audio=1
 keyguard.no_require_sim=true
 qemu.hw.mainkeys=0
 
-# Network Manager
-ro.telephony.iwlan_operation_mode=legacy
-
 # OEM Unlock
 ro.oem_unlock_supported=1
 
