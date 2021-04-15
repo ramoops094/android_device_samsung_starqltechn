@@ -314,6 +314,10 @@ PRODUCT_USE_VNDK_OVERRIDE := true
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.samsung
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.3-service.samsung
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
