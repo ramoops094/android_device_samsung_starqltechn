@@ -860,10 +860,8 @@ vendor/etc/media_profiles_vendor.xml
 vendor/etc/system_properties.xml
 
 # NFC
-etc/nfcee_access.xml
-vendor/etc/libnfc-sec-vendor.conf
+system/etc/libnfc-nci.conf:vendor/etc/libnfc-nci.conf
 vendor/etc/nfc/sec_s3nrn82_rfreg.bin
-vendor/lib64/nfc_nci_sec.so
 
 # Neural-networks
 vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
