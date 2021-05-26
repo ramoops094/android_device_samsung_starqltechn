@@ -91,10 +91,10 @@ prebuilt_etc {
     vendor: true,
 }
 
-prebuilt_root {
+prebuilt_etc {
     name: "ueventd.qcom.rc",
-    src: "etc/ueventd.qcom.rc",
     filename: "ueventd.rc",
+    src: "etc/ueventd.qcom.rc",
     vendor: true,
 }
 
