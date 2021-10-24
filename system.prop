@@ -1,3 +1,6 @@
+# RIL
+persist.sys.fflag.override.settings_provider_model=false
+
 # Samsung specific
 ro.product_ship=true
 # Set csc support in OMX
