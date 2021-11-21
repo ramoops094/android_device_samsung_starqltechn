@@ -154,6 +154,10 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service \
     android.hardware.keymaster@3.0-impl
 
+# Light
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.samsung
+
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
