@@ -182,7 +182,8 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
     libjson \
-    librmnetctl
+    librmnetctl \
+    secril_config_svc
 
 # Rootdir
 PRODUCT_PACKAGES += \
