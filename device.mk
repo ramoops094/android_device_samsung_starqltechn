@@ -327,6 +327,9 @@ PRODUCT_PACKAGES += \
     libsensorndkbridge \
     libshim_sensorndkbridge
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
+
 # Treble
 PRODUCT_USE_VNDK_OVERRIDE := true
 
