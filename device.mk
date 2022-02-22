@@ -164,3 +164,7 @@ PRODUCT_PACKAGES += \
     init.samsung.display.rc \
     init.samsung.rc \
     init.target.rc
+
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb-service.samsung
