@@ -359,6 +359,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SamsungDoze
 
+# SamsungDAP
+PRODUCT_PACKAGES += \
+    SamsungDAP
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
