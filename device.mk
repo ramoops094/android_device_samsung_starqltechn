@@ -372,7 +372,8 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/samsung
+    hardware/samsung \
+    vendor/qcom/opensource/usb/etc
 
 # Seccomp
 PRODUCT_COPY_FILES += \
