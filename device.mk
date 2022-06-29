@@ -335,6 +335,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    fstab.qcom.ramdisk \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.starqlte.rc \
