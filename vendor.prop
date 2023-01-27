@@ -103,6 +103,7 @@ dalvik.vm.lockprof.threshold=500
 
 # Display
 debug.egl.hw=0
+debug.sf.auto_latch_unsignaled=0
 debug.sf.hw=0
 debug.sf.latch_unsignaled=1
 persist.sys.sf.native_mode=0
