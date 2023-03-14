@@ -139,9 +139,6 @@ vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 # Bluetooth
 -vendor/lib64/libbt-vendor.so
 
-# Bluetooth-AptX
-lib64/libaptX_encoder.so
-
 # CDSP
 vendor/bin/cdsprpcd
 vendor/lib/libcdsp_default_listener.so
