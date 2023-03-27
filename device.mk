@@ -422,7 +422,7 @@ PRODUCT_TARGET_VNDK_VERSION := 29
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service \
+    android.hardware.wifi-service \
     hostapd \
     WifiOverlay \
     wpa_supplicant \
