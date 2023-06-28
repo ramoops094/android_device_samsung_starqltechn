@@ -169,6 +169,10 @@ PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
     hardware/samsung
 
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors-service.samsung-multihal
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.samsung
