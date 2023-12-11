@@ -48,13 +48,13 @@ esac
 case "$baseband" in
     "msm" | "csfb" | "svlte2a" | "mdm" | "mdm2" | "sglte" | "sglte2" | "dsda2" | "unknown" | "dsda3" | "sdm" | "sdx" | "sm6")
 
-    if [ -f /vendor/firmware_mnt/verinfo/ver_info.txt ]; then
-        modem=`cat /vendor/firmware_mnt/verinfo/ver_info.txt |
+    if [ -f /vendor/firmware-modem/verinfo/ver_info.txt ]; then
+        modem=`cat /vendor/firmware-modem/verinfo/ver_info.txt |
                 sed -n 's/^[^:]*modem[^:]*:[[:blank:]]*//p' |
                 sed 's/.*MPSS.\(.*\)/\1/g' | cut -d \. -f 1`
         # Check if this is AT 3.0 or below. If so, start ril-daemon 
         if [ "$modem" = "AT" ]; then
-            version=`cat /vendor/firmware_mnt/verinfo/ver_info.txt |
+            version=`cat /vendor/firmware-modem/verinfo/ver_info.txt |
                     sed -n 's/^[^:]*modem[^:]*:[[:blank:]]*//p' |
                     sed 's/.*AT.\(.*\)/\1/g' | cut -d \- -f 1`
             if [ ! -z $version ]; then
@@ -67,7 +67,7 @@ case "$baseband" in
             fi
         # For older than TA 3.0 start ril-daemon
         elif [ "$modem" = "TA" ]; then
-            version=`cat /vendor/firmware_mnt/verinfo/ver_info.txt |
+            version=`cat /vendor/firmware-modem/verinfo/ver_info.txt |
                     sed -n 's/^[^:]*modem[^:]*:[[:blank:]]*//p' |
                     sed 's/.*TA.\(.*\)/\1/g' | cut -d \- -f 1`
             if [ ! -z $version ]; then
@@ -80,7 +80,7 @@ case "$baseband" in
             fi
         # For older than JO 3.2 start ril-daemon
         elif [ "$modem" = "JO" ]; then
-            version=`cat /vendor/firmware_mnt/verinfo/ver_info.txt |
+            version=`cat /vendor/firmware-modem/verinfo/ver_info.txt |
                     sed -n 's/^[^:]*modem[^:]*:[[:blank:]]*//p' |
                     sed 's/.*JO.\(.*\)/\1/g' | cut -d \- -f 1`
             if [ ! -z $version ]; then
