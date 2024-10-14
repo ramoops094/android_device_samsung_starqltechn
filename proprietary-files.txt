@@ -690,8 +690,8 @@ vendor/etc/init/android.hardware.health@2.0-service.samsung.rc
 vendor/lib64/vendor.samsung.hardware.health@1.0.so
 
 # HotwordEnrollment
--priv-app/HotwordEnrollmentOKGoogleExWCD9340/HotwordEnrollmentOKGoogleExWCD9340.apk
--priv-app/HotwordEnrollmentXGoogleExWCD9340/HotwordEnrollmentXGoogleExWCD9340.apk
+-system/priv-app/HotwordEnrollmentOKGoogleExWCD9340/HotwordEnrollmentOKGoogleExWCD9340.apk
+-system/priv-app/HotwordEnrollmentXGoogleExWCD9340/HotwordEnrollmentXGoogleExWCD9340.apk
 
 # IPA-Firmware
 vendor/firmware/ipa_fws.b00
