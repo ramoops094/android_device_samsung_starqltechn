@@ -7,6 +7,23 @@
 # API levels
 PRODUCT_SHIPPING_API_LEVEL := 26
 
+# Audio
+PRODUCT_PACKAGES += \
+    android.hardware.audio@5.0-impl:32 \
+    android.hardware.audio.effect@5.0-impl:32 \
+    android.hardware.audio.service \
+    android.hardware.soundtrigger@2.1-impl:32
+
+# Audio HW module
+    audio.r_submix.default \
+    audio.usb.default \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
+    libtinycompress \
+    libvolumelistener \
+    tinymix
+
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := xlarge
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
