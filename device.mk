@@ -24,6 +24,10 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     tinymix
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.5-service_64
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
