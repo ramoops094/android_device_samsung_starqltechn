@@ -7,6 +7,10 @@
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
+# AID/fs configs
+PRODUCT_PACKAGES += \
+    fs_config_files
+
 # API levels
 PRODUCT_SHIPPING_API_LEVEL := 26
 
