@@ -33,8 +33,6 @@ vendor/etc/init/android.hardware.atrace@1.0-service.rc
 -vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml
 
 # Audio
-etc/permissions/audiosphere.xml
--framework/audiosphere.jar
 vendor/bin/audioflacapp
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
