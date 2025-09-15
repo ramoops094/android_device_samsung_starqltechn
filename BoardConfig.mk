@@ -65,6 +65,13 @@ TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
 
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service.samsung \
+    com.android.nfc_extras \
+    NfcNci \
+    Tag
+
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := starqltechn
 
