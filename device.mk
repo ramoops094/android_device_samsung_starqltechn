@@ -48,6 +48,11 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-impl:64 \
+    android.hardware.bluetooth@1.0-service
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-service_64
@@ -141,6 +146,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libavservices_minijail
 
+# Neural Network
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.2.vendor
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
@@ -198,6 +207,14 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.0.vendor
+
+# Perf
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.perf@2.0.vendor
+
 # QTI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
@@ -237,6 +254,8 @@ PRODUCT_SOONG_NAMESPACES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors-service.samsung-multihal
+    android.hardware.sensors@1.0-impl:64 \
+    android.hardware.sensors@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
