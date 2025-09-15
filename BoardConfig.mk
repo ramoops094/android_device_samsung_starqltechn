@@ -80,6 +80,9 @@ BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := sdm845
 BOARD_VENDOR := samsung
 
+# SEPolicy
+include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
+
 # Wi-Fi
 BOARD_WLAN_DEVICE                := bcmdhd
 BOARD_WPA_SUPPLICANT_DRIVER      := NL80211
