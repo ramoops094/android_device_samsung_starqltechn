@@ -43,7 +43,12 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset $(BOARD_KERNEL_OFFSET)
 TARGET_SCREEN_DENSITY := 480
 
 # Filesystem
+BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_SYSTEMIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
+TARGET_COPY_OUT_VENDOR := vendor
+TARGET_USERIMAGES_USE_EXT4 := true
 
 # Kernel
 BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 service_locator.enable=1 swiotlb=2048 androidboot.configfs=true androidboot.usbcontroller=a600000.dwc3 firmware_class.path=/vendor/firmware_mnt/image loop.max_part=7
@@ -59,6 +64,16 @@ TARGET_USES_ION := true
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := starqltechn
+
+# Partitions
+BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
+BOARD_CACHEIMAGE_PARTITION_SIZE := 336592896
+BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 72339456
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4650434560
+BOARD_VENDORIMAGE_PARTITION_SIZE := 788529152
+
+BOARD_ROOT_EXTRA_FOLDERS := efs
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
