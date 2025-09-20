@@ -63,6 +63,10 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 TARGET_KERNEL_SOURCE := kernel/samsung/sdm845
 
+# Manifest
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+
 # Media
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
