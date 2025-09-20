@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.1-impl:32
 
 # Audio HW module
+PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default \
     libqcompostprocbundle \
@@ -101,7 +102,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.samsung \
+    android.hardware.biometrics.fingerprint@2.3-service.samsung
 
 # FM
 PRODUCT_PACKAGES += \
@@ -258,7 +259,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors-service.samsung-multihal
+    android.hardware.sensors-service.samsung-multihal \
     android.hardware.sensors@1.0-impl:64 \
     android.hardware.sensors@1.0-service
 
@@ -275,8 +276,8 @@ PRODUCT_PACKAGES += \
     wpa_supplicant.conf
 
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
-    $(COMMON_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
+    $(DEVICE_PATH)/configs/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
+    $(DEVICE_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
 # Inherit from starqltechn vendor tree
 $(call inherit-product, vendor/samsung/starqltechn/starqltechn-vendor.mk)
