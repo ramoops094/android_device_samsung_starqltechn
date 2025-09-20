@@ -221,6 +221,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.0.vendor
 
+# Properties
+PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
+
 # QTI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
