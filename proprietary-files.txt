@@ -2,20 +2,22 @@
 
 # ADSP
 vendor/bin/adsprpcd
-vendor/lib/libadsprpc.so
 vendor/lib/libadsp_default_listener.so
+vendor/lib/libadsprpc.so
 vendor/lib/libfastcvdsp_stub.so
 vendor/lib/libfastcvopt.so
 vendor/lib/libmdsprpc.so
 vendor/lib/libsdsprpc.so
-vendor/lib64/libadsprpc.so
 vendor/lib64/libadsp_default_listener.so
+vendor/lib64/libadsprpc.so
 vendor/lib64/libfastcvdsp_stub.so
 vendor/lib64/libfastcvopt.so
 vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
 
 # ADSP-Modules
+vendor/lib/rfsa/adsp/libVC1Dec.so
+vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libcvpdsp_skel.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
@@ -25,8 +27,6 @@ vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
 vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
 vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
-vendor/lib/rfsa/adsp/libVC1Dec.so
-vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
 
 # Atrace
 vendor/bin/hw/android.hardware.atrace@1.0-service
@@ -41,11 +41,11 @@ vendor/lib/libacdbrtac.so
 vendor/lib/libadiertac.so
 vendor/lib/libadm.so
 vendor/lib/libaudcal.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libaudio_soundtrigger.so
 vendor/lib/libaudioalsa.so
 vendor/lib/libaudioconfigstore.so
 vendor/lib/libaudioparsers.so
-vendor/lib/libaudio_log_utils.so
-vendor/lib/libaudio_soundtrigger.so
 vendor/lib/libcsd-client.so
 vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
@@ -155,11 +155,11 @@ lib64/libaptX_encoder.so
 
 # CDSP
 vendor/bin/cdsprpcd
-vendor/lib/libcdsprpc.so
 vendor/lib/libcdsp_default_listener.so
+vendor/lib/libcdsprpc.so
 vendor/lib/libsysmon_cdsp_skel.so
-vendor/lib64/libcdsprpc.so
 vendor/lib64/libcdsp_default_listener.so
+vendor/lib64/libcdsprpc.so
 vendor/lib64/libsysmon_cdsp_skel.so
 
 # CNE
@@ -220,16 +220,16 @@ vendor/bin/hw/vendor.qti.hardware.cvp@1.0-service
 vendor/etc/init/vendor.qti.hardware.cvp@1.0-service.rc
 vendor/lib/hw/vendor.qti.hardware.cvp@1.0-impl.so
 vendor/lib/libcvp.so
-vendor/lib/libcvpcpuRev_skel.so
 vendor/lib/libcvp_common.so
 vendor/lib/libcvp_stub.so
+vendor/lib/libcvpcpuRev_skel.so
 vendor/lib/vendor.qti.hardware.cvp@1.0-halimpl.so
 vendor/lib/vendor.qti.hardware.cvp@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.cvp@1.0-impl.so
 vendor/lib64/libcvp.so
-vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/libcvp_common.so
 vendor/lib64/libcvp_stub.so
+vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0-halimpl.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 
@@ -292,10 +292,10 @@ vendor/lib/libcom.qti.chinodeutils.so
 vendor/lib/libdualcam_optical_zoom_control.so
 vendor/lib/libgui_vendor.so
 vendor/lib/libmpbase.so
-vendor/lib/libsnsapi.so
 vendor/lib/libsns_device_mode_stub.so
 vendor/lib/libsns_fastRPC_util.so
 vendor/lib/libsns_low_lat_stream_stub.so
+vendor/lib/libsnsapi.so
 vendor/lib/libswregistrationalgo.so
 vendor/lib/libswvdec.so
 vendor/lib/libvdis_core.so
@@ -321,10 +321,10 @@ vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so
 vendor/lib64/libmpbase.so
-vendor/lib64/libsnsapi.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libsns_fastRPC_util.so
 vendor/lib64/libsns_low_lat_stream_stub.so
+vendor/lib64/libsnsapi.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libswvdec.so
 vendor/lib64/libvdis_core.so
@@ -355,46 +355,46 @@ vendor/bin/hvdcp_opti
 
 # DRM
 vendor/bin/qseecomd
+vendor/lib/libGPTEE_vendor.so
+vendor/lib/libGPreqcancel.so
+vendor/lib/libGPreqcancel_svc.so
+vendor/lib/libQSEEComAPI.so
+vendor/lib/libSecureUILib.so
+vendor/lib/libStDrvInt.so
 vendor/lib/libbase64.so
 vendor/lib/libcpion.so
 vendor/lib/libcppf.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
-vendor/lib/libGPreqcancel.so
-vendor/lib/libGPreqcancel_svc.so
-vendor/lib/libGPTEE_vendor.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libqisl.so
-vendor/lib/libQSEEComAPI.so
 vendor/lib/librmp.so
 vendor/lib/librpmb.so
 vendor/lib/libsecureui.so
-vendor/lib/libSecureUILib.so
 vendor/lib/libsecureui_svcsock.so
 vendor/lib/libsi.so
 vendor/lib/libspl.so
 vendor/lib/libssd.so
-vendor/lib/libStDrvInt.so
 vendor/lib/libtzdrmgenprov.so
+vendor/lib64/libGPTEE_vendor.so
+vendor/lib64/libGPreqcancel.so
+vendor/lib64/libGPreqcancel_svc.so
+vendor/lib64/libQSEEComAPI.so
+vendor/lib64/libSecureUILib.so
+vendor/lib64/libStDrvInt.so
 vendor/lib64/libbase64.so
 vendor/lib64/libcpion.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
-vendor/lib64/libGPreqcancel.so
-vendor/lib64/libGPreqcancel_svc.so
-vendor/lib64/libGPTEE_vendor.so
 vendor/lib64/liboemcrypto.so
 vendor/lib64/libqisl.so
-vendor/lib64/libQSEEComAPI.so
 vendor/lib64/librmp.so
 vendor/lib64/librpmb.so
 vendor/lib64/libsecureui.so
-vendor/lib64/libSecureUILib.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libsi.so
 vendor/lib64/libspl.so
 vendor/lib64/libssd.so
-vendor/lib64/libStDrvInt.so
 vendor/lib64/libtzdrmgenprov.so
 
 # DRM-HDCP
@@ -518,23 +518,23 @@ vendor/lib64/libqfp_sensortest.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # Firmware
-vendor/firmware/a225p5_pm4.fw
 vendor/firmware/a225_pfp.fw
 vendor/firmware/a225_pm4.fw
+vendor/firmware/a225p5_pm4.fw
 vendor/firmware/a300_pfp.fw
 vendor/firmware/a300_pm4.fw
 vendor/firmware/a330_pfp.fw
 vendor/firmware/a330_pm4.fw
 vendor/firmware/a420_pfp.fw
 vendor/firmware/a420_pm4.fw
+vendor/firmware/a530_gpmu.fw2
+vendor/firmware/a530_pfp.fw
+vendor/firmware/a530_pm4.fw
 vendor/firmware/a530v1_pfp.fw
 vendor/firmware/a530v1_pm4.fw
 vendor/firmware/a530v2_seq.fw2
 vendor/firmware/a530v3_gpmu.fw2
 vendor/firmware/a530v3_seq.fw2
-vendor/firmware/a530_gpmu.fw2
-vendor/firmware/a530_pfp.fw
-vendor/firmware/a530_pm4.fw
 vendor/firmware/a540_gpmu.fw2
 vendor/firmware/a630_gmu.bin
 vendor/firmware/a630_sqe.fw
@@ -572,12 +572,12 @@ vendor/lib/libgeofencing.so
 vendor/lib/libizat_client_api.so
 vendor/lib/libizat_core.so
 vendor/lib/liblbs_core.so
-vendor/lib/liblocationservice.so
-vendor/lib/liblocationservice_glue.so
-vendor/lib/liblocation_api.so
 vendor/lib/libloc_api_v02.so
 vendor/lib/libloc_core.so
 vendor/lib/libloc_socket.so
+vendor/lib/liblocation_api.so
+vendor/lib/liblocationservice.so
+vendor/lib/liblocationservice_glue.so
 vendor/lib/liblowi_client.so
 vendor/lib/liblowi_wifihal.so
 vendor/lib/libxtadapter.so
@@ -599,12 +599,12 @@ vendor/lib64/libgeofencing.so
 vendor/lib64/libizat_client_api.so
 vendor/lib64/libizat_core.so
 vendor/lib64/liblbs_core.so
-vendor/lib64/liblocationservice.so
-vendor/lib64/liblocationservice_glue.so
-vendor/lib64/liblocation_api.so
 vendor/lib64/libloc_api_v02.so
 vendor/lib64/libloc_core.so
 vendor/lib64/libloc_socket.so
+vendor/lib64/liblocation_api.so
+vendor/lib64/liblocationservice.so
+vendor/lib64/liblocationservice_glue.so
 vendor/lib64/liblowi_client.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libqdma.so
@@ -645,23 +645,23 @@ vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
 vendor/lib/egl/libGLESv2_adreno.so
+vendor/lib/egl/libQTapGLES.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
-vendor/lib/egl/libQTapGLES.so
 vendor/lib/hw/vulkan.sdm845.so
+vendor/lib/libC2D2.so
+vendor/lib/libCB.so
+vendor/lib/libOpenCL.so
+vendor/lib/libRSDriver_adreno.so
 vendor/lib/libadreno_utils.so
 vendor/lib/libbccQTI.so
-vendor/lib/libC2D2.so
 vendor/lib/libc2d30_bltlib.so
-vendor/lib/libCB.so
 vendor/lib/libgsl.so
 vendor/lib/libhdr_tm.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
-vendor/lib/libOpenCL.so
 vendor/lib/libpvr.so
 vendor/lib/libqseed3.so
-vendor/lib/libRSDriver_adreno.so
 vendor/lib/librs_adreno.so
 vendor/lib/librs_adreno_sha1.so
 vendor/lib/libsdm-color.so
@@ -672,23 +672,23 @@ vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so
 vendor/lib64/egl/libGLESv2_adreno.so
+vendor/lib64/egl/libQTapGLES.so
 vendor/lib64/egl/libq3dtools_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/egl/libQTapGLES.so
 vendor/lib64/hw/vulkan.sdm845.so
+vendor/lib64/libC2D2.so
+vendor/lib64/libCB.so
+vendor/lib64/libOpenCL.so
+vendor/lib64/libRSDriver_adreno.so
 vendor/lib64/libadreno_utils.so
 vendor/lib64/libbccQTI.so
-vendor/lib64/libC2D2.so
 vendor/lib64/libc2d30_bltlib.so
-vendor/lib64/libCB.so
 vendor/lib64/libgsl.so
 vendor/lib64/libhdr_tm.so
 vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
-vendor/lib64/libOpenCL.so
 vendor/lib64/libpvr.so
 vendor/lib64/libqseed3.so
-vendor/lib64/libRSDriver_adreno.so
 vendor/lib64/librs_adreno.so
 vendor/lib64/librs_adreno_sha1.so
 vendor/lib64/libsdm-color.so
@@ -761,26 +761,22 @@ vendor/lib64/liblistensoundmodel2.so
 
 # Media
 lib/libFileMux.so
+lib/libOmxMux.so
 lib/libmmosal.so
 lib/libmmparser_lite.so
 lib/libmmrtpdecoder.so
 lib/libmmrtpencoder.so
-lib/libOmxMux.so
 lib64/libFileMux.so
+lib64/libOmxMux.so
 lib64/libmmosal.so
 lib64/libmmparser_lite.so
 lib64/libmmrtpdecoder.so
 lib64/libmmrtpencoder.so
-lib64/libOmxMux.so
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
-vendor/lib/libdsd2pcm.so
 vendor/lib/libFlacSwDec.so
 vendor/lib/libI420colorconvert.so
-vendor/lib/libmm-color-convertor.so
-vendor/lib/libmmosal_proprietary.so
 vendor/lib/libMpeg4SwEncoder.so
-vendor/lib/libmulawdec.so
 vendor/lib/libOmxAacDec.so
 vendor/lib/libOmxAlacDec.so
 vendor/lib/libOmxAlacDecSw.so
@@ -795,6 +791,10 @@ vendor/lib/libOmxMux_proprietary.so
 vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
+vendor/lib/libdsd2pcm.so
+vendor/lib/libmm-color-convertor.so
+vendor/lib/libmmosal_proprietary.so
+vendor/lib/libmulawdec.so
 vendor/lib/libstagefright_soft_ac4dec.so
 vendor/lib/libstagefright_soft_ddpdec.so
 vendor/lib/libstagefright_soft_mpeg2dec.so
@@ -810,10 +810,7 @@ vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libFlacSwDec.so
 vendor/lib64/libI420colorconvert.so
-vendor/lib64/libmm-color-convertor.so
-vendor/lib64/libmmosal_proprietary.so
 vendor/lib64/libMpeg4SwEncoder.so
-vendor/lib64/libmulawdec.so
 vendor/lib64/libOmxAacDec.so
 vendor/lib64/libOmxAlacDec.so
 vendor/lib64/libOmxAlacDecSw.so
@@ -826,6 +823,9 @@ vendor/lib64/libOmxG711Dec.so
 vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libOmxVpp.so
 vendor/lib64/libOmxWmaDec.so
+vendor/lib64/libmm-color-convertor.so
+vendor/lib64/libmmosal_proprietary.so
+vendor/lib64/libmulawdec.so
 vendor/lib64/libstagefright_soft_qtiflacdec.so
 vendor/lib64/libvppclient.so
 vendor/lib64/libvpphcp.so
@@ -836,8 +836,6 @@ vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 
 # Media-Hardware
-vendor/lib/libc2dcolorconvert.so
-vendor/lib/libmm-omxcore.so
 vendor/lib/libOmxAacEnc.so
 vendor/lib/libOmxAmrEnc.so
 vendor/lib/libOmxCore.so
@@ -848,9 +846,9 @@ vendor/lib/libOmxSwVdec.so
 vendor/lib/libOmxSwVencMpeg4.so
 vendor/lib/libOmxVdec.so
 vendor/lib/libOmxVenc.so
+vendor/lib/libc2dcolorconvert.so
+vendor/lib/libmm-omxcore.so
 vendor/lib/libstagefrighthw.so
-vendor/lib64/libc2dcolorconvert.so
-vendor/lib64/libmm-omxcore.so
 vendor/lib64/libOmxAacEnc.so
 vendor/lib64/libOmxAmrEnc.so
 vendor/lib64/libOmxCore.so
@@ -861,6 +859,8 @@ vendor/lib64/libOmxSwVdec.so
 vendor/lib64/libOmxSwVencMpeg4.so
 vendor/lib64/libOmxVdec.so
 vendor/lib64/libOmxVenc.so
+vendor/lib64/libc2dcolorconvert.so
+vendor/lib64/libmm-omxcore.so
 vendor/lib64/libstagefrighthw.so
 
 # Media XMLs
@@ -972,13 +972,13 @@ vendor/lib/libminkdescriptor.so
 vendor/lib/libqdi.so
 vendor/lib/libqdp.so
 vendor/lib/libqmi.so
-vendor/lib/libqmiservices.so
 vendor/lib/libqmi_cci.so
 vendor/lib/libqmi_client_helper.so
 vendor/lib/libqmi_client_qmux.so
 vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
+vendor/lib/libqmiservices.so
 vendor/lib64/libdiag.so
 vendor/lib64/libdsutils.so
 vendor/lib64/libidl.so
@@ -986,13 +986,13 @@ vendor/lib64/libminkdescriptor.so
 vendor/lib64/libqdi.so
 vendor/lib64/libqdp.so
 vendor/lib64/libqmi.so
-vendor/lib64/libqmiservices.so
 vendor/lib64/libqmi_cci.so
 vendor/lib64/libqmi_client_helper.so
 vendor/lib64/libqmi_client_qmux.so
 vendor/lib64/libqmi_common_so.so
 vendor/lib64/libqmi_csi.so
 vendor/lib64/libqmi_encdec.so
+vendor/lib64/libqmiservices.so
 
 # Qdutils
 vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti
@@ -1107,21 +1107,21 @@ vendor/etc/init/hw/init.samsung.rc
 vendor/lib/hw/com.samsung.chi.override.so
 vendor/lib/libDLInterface.camera.samsung.so
 vendor/lib/libOpenCv.camera.samsung.so
-vendor/lib/libsamsungVoipResampler.so
-vendor/lib/libxcv.camera.samsung.so
 vendor/lib/lib_SamsungRec_06006.so
-vendor/lib/lib_soundaliveresampler.so
 vendor/lib/lib_SoundAlive_3DPosition_ver202.so
 vendor/lib/lib_SoundAlive_AlbumArt_ver105.so
-vendor/lib/lib_SoundAlive_play_plus_ver210.so
 vendor/lib/lib_SoundAlive_SRC384_ver320.so
+vendor/lib/lib_SoundAlive_play_plus_ver210.so
+vendor/lib/lib_soundaliveresampler.so
+vendor/lib/libsamsungVoipResampler.so
+vendor/lib/libxcv.camera.samsung.so
 vendor/lib/soundfx/libsamsungSoundbooster_plus.so
 vendor/lib64/libDLInterface.camera.samsung.so
 vendor/lib64/libOpenCv.camera.samsung.so
-vendor/lib64/libxcv.camera.samsung.so
 vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
 vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so
 vendor/lib64/lib_SoundAlive_play_plus_ver210.so
+vendor/lib64/libxcv.camera.samsung.so
 vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
 
 # Sensor-configs
@@ -1215,6 +1215,8 @@ vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so
 # Misc
 vendor/app/mcRegistry/07010000000000000000000000000000.tlbin
 vendor/app/mcRegistry/ffffffffd00000000000000000000014.tlbin
+vendor/bin/PktRspTest
+vendor/bin/StoreKeybox
 vendor/bin/adpl
 vendor/bin/argosd
 vendor/bin/cplay
@@ -1243,7 +1245,6 @@ vendor/bin/loadalgo
 vendor/bin/mcDriverDaemon
 vendor/bin/mdm_helper
 vendor/bin/mdm_helper_proxy
-vendor/bin/PktRspTest
 vendor/bin/pm_proxy_helper
 vendor/bin/ppd
 vendor/bin/pvclicense_sample
@@ -1255,7 +1256,6 @@ vendor/bin/seemp_healthd
 vendor/bin/snap_utility_32
 vendor/bin/snap_utility_64
 vendor/bin/sscrpcd
-vendor/bin/StoreKeybox
 vendor/bin/tbaseLoader
 vendor/bin/test_diag
 vendor/bin/test_model.json
@@ -1263,6 +1263,7 @@ vendor/bin/time_client
 vendor/bin/vppservice
 vendor/bin/wifilearner
 vendor/bin/wvkprov
+vendor/etc/SoundBoosterParam.txt
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/floating_feature.xml
 vendor/etc/gpfspath_oem_config.xml
@@ -1274,9 +1275,9 @@ vendor/etc/init/init.time_daemon.rc
 vendor/etc/init/init.vendor.onebinary.rc
 vendor/etc/init/init.vendor.rilchip.rc
 vendor/etc/init/init.vendor.rilcommon.rc
+vendor/etc/init/ipa_fws.rc
 vendor/etc/init/ipacm-diag.rc
 vendor/etc/init/ipacm.rc
-vendor/etc/init/ipa_fws.rc
 vendor/etc/init/netmgrd.rc
 vendor/etc/init/pa_daemon_qsee.rc
 vendor/etc/init/qdcmss.rc
@@ -1308,8 +1309,8 @@ vendor/etc/saiv/gae/PmAgeFeatSelIdx.bin
 vendor/etc/saiv/gae/PmAgeModel.bin
 vendor/etc/saiv/gae/PmExpFeatSelIdx.bin
 vendor/etc/saiv/gae/PmExpModel.bin
-vendor/etc/saiv/gae/PmGenderFeatSelIdx.bin
 vendor/etc/saiv/gae/PmGenModel.bin
+vendor/etc/saiv/gae/PmGenderFeatSelIdx.bin
 vendor/etc/saiv/ld/avg_hog_13pt.dat
 vendor/etc/saiv/ld/avg_hog_35pt.dat
 vendor/etc/saiv/ld/mean_35pt.txt
@@ -1319,21 +1320,33 @@ vendor/etc/sec_config_oem
 vendor/etc/snap_gpu_kernel_32.bin
 vendor/etc/snap_gpu_kernel_64.bin
 vendor/etc/somxreg.conf
-vendor/etc/SoundBoosterParam.txt
 vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json
 vendor/etc/str/str_preference_data.dat
 vendor/etc/tms_audio_policy_configuration.xml
 vendor/etc/wlan_common_rc
 vendor/etc/wlan_vendor_rc
-vendor/lib/com.qti.node.eisv2.so
-vendor/lib/com.qti.node.eisv3.so
-vendor/lib/com.qti.node.remosaic.so
 vendor/lib/H12QS_libTsAe.so
 vendor/lib/H12QS_libTsAf.so
 vendor/lib/H12QS_libTsAwb.so
 vendor/lib/H12QS_libTsPdafm.so
+vendor/lib/W08QS_libTsAeFront.so
+vendor/lib/W08QS_libTsAfFront.so
+vendor/lib/W08QS_libTsAwbFront.so
+vendor/lib/com.qti.node.eisv2.so
+vendor/lib/com.qti.node.eisv3.so
+vendor/lib/com.qti.node.remosaic.so
 vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so
+vendor/lib/libFileMux_proprietary.so
+vendor/lib/libFrucSSMLib.so
+vendor/lib/libHMT.so
+vendor/lib/libIDDQD_core.so
+vendor/lib/libIDDQD_interface.so
+vendor/lib/libMcClient.so
+vendor/lib/libOmxBlackBar.so
+vendor/lib/libTigerCaV4.so
+vendor/lib/libTigerLogger.so
+vendor/lib/lib_SoundBooster_ver900.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libapex_cmn.so
 vendor/lib/libapex_utils.so
@@ -1353,11 +1366,9 @@ vendor/lib/libdiagjni.so
 vendor/lib/libdisplayconfig.so
 vendor/lib/libexthwplugin.so
 vendor/lib/libfastcrc.so
-vendor/lib/libFileMux_proprietary.so
 vendor/lib/libfloatingfeature.so
 vendor/lib/libfocuspeaking.so
 vendor/lib/libfocuspeaking_interface.so
-vendor/lib/libFrucSSMLib.so
 vendor/lib/libgtmdrv.so
 vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
@@ -1366,20 +1377,15 @@ vendor/lib/libhifills.so
 vendor/lib/libhifills_interface.so
 vendor/lib/libhifistill_tuning.so
 vendor/lib/libhigh_dynamic_range.so
-vendor/lib/libHMT.so
 vendor/lib/libhypermotion_core.so
 vendor/lib/libhypermotion_interface.so
-vendor/lib/libIDDQD_core.so
-vendor/lib/libIDDQD_interface.so
 vendor/lib/libllhdr_interface.so
 vendor/lib/liblow_light_hdr.so
-vendor/lib/libMcClient.so
 vendor/lib/libmdf.so
 vendor/lib/libmfhdr_interface.so
 vendor/lib/libmmparser_lite_proprietary.so
 vendor/lib/libmmrtpdecoder_proprietary.so
 vendor/lib/libmmrtpencoder_proprietary.so
-vendor/lib/libOmxBlackBar.so
 vendor/lib/libopus.so
 vendor/lib/libpa.so
 vendor/lib/libpadm.so
@@ -1397,23 +1403,23 @@ vendor/lib/libsavscmn.so
 vendor/lib/libsavsvc.so
 vendor/lib/libsec-ril-dsds.so
 vendor/lib/libsec-ril.so
+vendor/lib/libsec_semRil.so
 vendor/lib/libsecaudiocoreutils.so
 vendor/lib/libsecaudioinfo.so
 vendor/lib/libsecnativefeature.so
-vendor/lib/libsec_semRil.so
 vendor/lib/libsemnativecarrierfeature.so
-vendor/lib/libsmartfocusengine.so
 vendor/lib/libsmartfocus_interface.so
+vendor/lib/libsmartfocusengine.so
 vendor/lib/libsnaace.so
 vendor/lib/libsnamrnb.so
 vendor/lib/libsnamrwb.so
-vendor/lib/libsnaplite_native.so
-vendor/lib/libsnaplite_wrapper.so
 vendor/lib/libsnap_caffe.so
 vendor/lib/libsnap_caffe_wrapper.so
 vendor/lib/libsnap_compute.so
 vendor/lib/libsnap_compute_wrapper.so
 vendor/lib/libsnap_vndk.so
+vendor/lib/libsnaplite_native.so
+vendor/lib/libsnaplite_wrapper.so
 vendor/lib/libsndmonitor.so
 vendor/lib/libsomx263dsw.so
 vendor/lib/libsomx264dsw.so
@@ -1442,8 +1448,6 @@ vendor/lib/libstagefright_bufferqueue_helper_vendor.so
 vendor/lib/libstagefright_enc_common.so
 vendor/lib/libstagefright_flacdec.so
 vendor/lib/libstagefright_omx_vendor.so
-vendor/lib/libstagefright_softomx.so
-vendor/lib/libstagefright_softomx_plugin.so
 vendor/lib/libstagefright_soft_aacdec.so
 vendor/lib/libstagefright_soft_aacenc.so
 vendor/lib/libstagefright_soft_amrdec.so
@@ -1464,6 +1468,8 @@ vendor/lib/libstagefright_soft_rawdec.so
 vendor/lib/libstagefright_soft_vorbisdec.so
 vendor/lib/libstagefright_soft_vpxdec.so
 vendor/lib/libstagefright_soft_vpxenc.so
+vendor/lib/libstagefright_softomx.so
+vendor/lib/libstagefright_softomx_plugin.so
 vendor/lib/libstr_capture_core.so
 vendor/lib/libstr_capture_interface.so
 vendor/lib/libstr_preview_core.so
@@ -1471,8 +1477,6 @@ vendor/lib/libstr_preview_interface.so
 vendor/lib/libsuper_night_interface.so
 vendor/lib/libsxqk.so
 vendor/lib/libsynaFpSensorTestNwd.so
-vendor/lib/libTigerCaV4.so
-vendor/lib/libTigerLogger.so
 vendor/lib/libuniapi.so
 vendor/lib/libuniplugin.so
 vendor/lib/libvideobeauty_interface.so
@@ -1482,7 +1486,6 @@ vendor/lib/libvndsecril-client.so
 vendor/lib/libvorbisidec.so
 vendor/lib/libvpx.so
 vendor/lib/libwifi-hal.so
-vendor/lib/lib_SoundBooster_ver900.so
 vendor/lib/soundfx/libgearvr.so
 vendor/lib/soundfx/libmysound.so
 vendor/lib/soundfx/libmyspace.so
@@ -1492,10 +1495,16 @@ vendor/lib/vendor.qti.hardware.automotive.vehicle@1.0.so
 vendor/lib/vendor.qti.hardware.cacert@1.0.so
 vendor/lib/vendor.qti.hardware.cryptfshw@1.0.so
 vendor/lib/vendor.qti.hardware.qseecom@1.0.so
-vendor/lib/W08QS_libTsAeFront.so
-vendor/lib/W08QS_libTsAfFront.so
-vendor/lib/W08QS_libTsAwbFront.so
 vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
+vendor/lib64/libFacialStickerEngine.arcsoft.so
+vendor/lib64/libHMT.so
+vendor/lib64/libIDDQD_core.so
+vendor/lib64/libIDDQD_interface.so
+vendor/lib64/libMcClient.so
+vendor/lib64/libOmxBlackBar.so
+vendor/lib64/libTigerCaV4.so
+vendor/lib64/libTigerLogger.so
+vendor/lib64/lib_SoundBooster_ver900.so
 vendor/lib64/libarac.so
 vendor/lib64/libbauthserver.so
 vendor/lib64/libbauthtzcommon.so
@@ -1505,7 +1514,6 @@ vendor/lib64/libcryptfshwcommon.so
 vendor/lib64/libcryptfshwhidl.so
 vendor/lib64/libdiagjni.so
 vendor/lib64/libdisplayconfig.so
-vendor/lib64/libFacialStickerEngine.arcsoft.so
 vendor/lib64/libflicker.so
 vendor/lib64/libfloatingfeature.so
 vendor/lib64/libfocuspeaking.so
@@ -1514,21 +1522,16 @@ vendor/lib64/libhifills.so
 vendor/lib64/libhifills_interface.so
 vendor/lib64/libhifistill_tuning.so
 vendor/lib64/libhigh_dynamic_range.so
-vendor/lib64/libHMT.so
 vendor/lib64/libhypermotion_core.so
 vendor/lib64/libhypermotion_interface.so
-vendor/lib64/libIDDQD_core.so
-vendor/lib64/libIDDQD_interface.so
 vendor/lib64/libllhdr_interface.so
 vendor/lib64/libloadalgo_stub.so
 vendor/lib64/liblow_light_hdr.so
-vendor/lib64/libMcClient.so
 vendor/lib64/libmdf.so
 vendor/lib64/libmdmimgload.so
 vendor/lib64/libmfhdr_interface.so
 vendor/lib64/libmmparser_lite_proprietary.so
 vendor/lib64/libnanopb.so
-vendor/lib64/libOmxBlackBar.so
 vendor/lib64/libpa.so
 vendor/lib64/libpadm.so
 vendor/lib64/libpassese.so
@@ -1543,23 +1546,23 @@ vendor/lib64/libsavscmn.so
 vendor/lib64/libsavsvc.so
 vendor/lib64/libsec-ril-dsds.so
 vendor/lib64/libsec-ril.so
+vendor/lib64/libsec_semRil.so
 vendor/lib64/libsecaudiocoreutils.so
 vendor/lib64/libsecaudioinfo.so
 vendor/lib64/libsecnativefeature.so
-vendor/lib64/libsec_semRil.so
 vendor/lib64/libsemnativecarrierfeature.so
-vendor/lib64/libsmartfocusengine.so
 vendor/lib64/libsmartfocus_interface.so
+vendor/lib64/libsmartfocusengine.so
 vendor/lib64/libsnaace.so
 vendor/lib64/libsnamrnb.so
 vendor/lib64/libsnamrwb.so
-vendor/lib64/libsnaplite_native.so
-vendor/lib64/libsnaplite_wrapper.so
 vendor/lib64/libsnap_caffe.so
 vendor/lib64/libsnap_caffe_wrapper.so
 vendor/lib64/libsnap_compute.so
 vendor/lib64/libsnap_compute_wrapper.so
 vendor/lib64/libsnap_vndk.so
+vendor/lib64/libsnaplite_native.so
+vendor/lib64/libsnaplite_wrapper.so
 vendor/lib64/libsomx263dsw.so
 vendor/lib64/libsomx264dsw.so
 vendor/lib64/libsomxaacd.so
@@ -1586,8 +1589,6 @@ vendor/lib64/libstr_capture_core.so
 vendor/lib64/libstr_preview_core.so
 vendor/lib64/libsxqk.so
 vendor/lib64/libsynaFpSensorTestNwd.so
-vendor/lib64/libTigerCaV4.so
-vendor/lib64/libTigerLogger.so
 vendor/lib64/libtzcom.so
 vendor/lib64/libucsengine.so
 vendor/lib64/libuniapi.so
@@ -1597,7 +1598,6 @@ vendor/lib64/libvkmanager_vendor.so
 vendor/lib64/libvkservice.so
 vendor/lib64/libvndfwk_detect_jni.qti.so
 vendor/lib64/libvndsecril-client.so
-vendor/lib64/lib_SoundBooster_ver900.so
 vendor/lib64/soundfx/libgearvr.so
 vendor/lib64/soundfx/libmysound.so
 vendor/lib64/soundfx/libmyspace.so
