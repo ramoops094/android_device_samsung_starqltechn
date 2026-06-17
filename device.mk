@@ -166,6 +166,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.2.vendor
 
+# Light
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.samsung
+    android.hardware.light-service.samsung
+
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
