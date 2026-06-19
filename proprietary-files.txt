@@ -358,14 +358,6 @@ vendor/lib/libmmcamera_faceproc2.so
 # Charger
 vendor/bin/hvdcp_opti
 
-# Configstore
-vendor/bin/hw/android.hardware.configstore@1.1-service
-vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
-vendor/etc/init/android.hardware.configstore@1.1-service.rc
-vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
-vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
-
 # DPM
 -framework/tcmclient.jar
 -product/framework/com.qti.dpmframework.jar
@@ -1144,26 +1136,14 @@ vendor/lib64/libSubSystemShutdown.so
 vendor/lib64/libsubsystem_control.so
 
 # Samsung
-odm/etc/omc/single/BVO/res/media/bootsamsung.qmg
-odm/etc/omc/single/UYO/res/media/bootsamsung.qmg
 vendor/bin/hw/vendor.samsung.hardware.authfw@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.base@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.media.converter@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service
 vendor/bin/hw/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.snap@1.1-service
-vendor/bin/hw/vendor.samsung.hardware.soter@3.0-service
-vendor/bin/hw/vendor.samsung.hardware.tlc.atn@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.tlc.iccc@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.tlc.payment@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.tlc.tima@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.tlc.ucm@2.0-service
 vendor/bin/hw/vendor.samsung.hardware.vibrator@2.1-service
 vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service
-vendor/bin/vendor.samsung.hardware.security.proca@2.0-service
-vendor/bin/vendor.samsung.hardware.security.vaultkeeper@1.0-service
 vendor/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service
-vendor/bin/vendor.samsung.hardware.security.wsm@1.0-service
 vendor/etc/init/hw/init.samsung.bsp.rc
 vendor/etc/init/hw/init.samsung.display.rc
 vendor/etc/init/hw/init.samsung.rc
@@ -1173,26 +1153,14 @@ vendor/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.snap@1.1-service.rc
-vendor/etc/init/vendor.samsung.hardware.soter@3.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.tlc.atn@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.tlc.iccc@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.tlc.payment@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.tlc.tima@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.tlc.ucm@2.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.vibrator@2.1-service.rc
 vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.authfw@1.0-manifest.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.base@1.0-service.xml
--vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.atn@1.0-manifest.xml
--vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.iccc@1.0-manifest.xml
--vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.tima@1.0-manifest.xml
 vendor/lib/hw/com.samsung.chi.override.so
-vendor/lib/hw/vendor.samsung.hardware.snap@1.1-impl.so
 vendor/lib/libDLInterface.camera.samsung.so
 vendor/lib/libOpenCv.camera.samsung.so
 vendor/lib/libsamsungVoipResampler.so
-vendor/lib/libsnap_v1.samsung.so
 vendor/lib/libxcv.camera.samsung.so
 vendor/lib/lib_SamsungRec_06006.so
 vendor/lib/lib_soundaliveresampler.so
@@ -1203,17 +1171,8 @@ vendor/lib/lib_SoundAlive_SRC384_ver320.so
 vendor/lib/soundfx/libsamsungSoundbooster_plus.so
 vendor/lib/vendor.samsung.camera.device@1.0-impl.so
 vendor/lib/vendor.samsung.camera.device@4.0-impl.so
-vendor/lib/vendor.samsung.hardware.security.proca@2.0.so
-vendor/lib/vendor.samsung.hardware.security.securestorage@3.0.so
-vendor/lib/vendor.samsung.hardware.snap@1.0.so
-vendor/lib/vendor.samsung.hardware.snap@1.1.so
-vendor/lib/vendor.samsung.hardware.tlc.ucm@2.0-impl.so
-vendor/lib/vendor.samsung.hardware.tlc.ucm@2.0.so
-vendor/lib64/hw/vendor.samsung.hardware.snap@1.1-impl.so
 vendor/lib64/libDLInterface.camera.samsung.so
-vendor/lib64/libhal.wsm.samsung.so
 vendor/lib64/libOpenCv.camera.samsung.so
-vendor/lib64/libsnap_v1.samsung.so
 vendor/lib64/libxcv.camera.samsung.so
 vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
 vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so
@@ -1221,30 +1180,12 @@ vendor/lib64/lib_SoundAlive_play_plus_ver210.so
 vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
 vendor/lib64/vendor.samsung.camera.device@1.0-impl.so
 vendor/lib64/vendor.samsung.camera.device@4.0-impl.so
-vendor/lib64/vendor.samsung.frameworks.security.dsms@1.0.so
-vendor/lib64/vendor.samsung.frameworks.security.ucm.crypto@1.0.so
 vendor/lib64/vendor.samsung.hardware.authfw@1.0.so
 vendor/lib64/vendor.samsung.hardware.base@1.0.so
 vendor/lib64/vendor.samsung.hardware.media.converter@1.0.so
 vendor/lib64/vendor.samsung.hardware.miscpower@2.0.so
 vendor/lib64/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0.so
-vendor/lib64/vendor.samsung.hardware.security.proca@2.0.so
-vendor/lib64/vendor.samsung.hardware.security.securestorage@3.0.so
-vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@1.0.so
 vendor/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so
-vendor/lib64/vendor.samsung.hardware.snap@1.0.so
-vendor/lib64/vendor.samsung.hardware.snap@1.1.so
-vendor/lib64/vendor.samsung.hardware.soter@3.0.so
-vendor/lib64/vendor.samsung.hardware.tlc.atn@1.0-impl.so
-vendor/lib64/vendor.samsung.hardware.tlc.atn@1.0.so
-vendor/lib64/vendor.samsung.hardware.tlc.iccc@1.0-impl.so
-vendor/lib64/vendor.samsung.hardware.tlc.iccc@1.0.so
-vendor/lib64/vendor.samsung.hardware.tlc.payment@1.0-impl.so
-vendor/lib64/vendor.samsung.hardware.tlc.payment@1.0.so
-vendor/lib64/vendor.samsung.hardware.tlc.tima@1.0-impl.so
-vendor/lib64/vendor.samsung.hardware.tlc.tima@1.0.so
-vendor/lib64/vendor.samsung.hardware.tlc.ucm@2.0-impl.so
-vendor/lib64/vendor.samsung.hardware.tlc.ucm@2.0.so
 vendor/lib64/vendor.samsung.hardware.vibrator@2.0.so
 vendor/lib64/vendor.samsung.hardware.vibrator@2.1.so
 vendor/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so
@@ -1297,9 +1238,6 @@ vendor/lib64/libssc_default_listener.so
 vendor/lib64/sensors.bio.so
 vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.ssc.so
-
-# Soter
-vendor/lib64/libSoterServiceImpl.so
 
 # TUI
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
@@ -1405,7 +1343,6 @@ vendor/bin/tbaseLoader
 vendor/bin/test_diag
 vendor/bin/test_model.json
 vendor/bin/time_client
-vendor/bin/vaultkeeperd
 vendor/bin/vppservice
 vendor/bin/wifilearner
 vendor/bin/wvkprov
@@ -1429,7 +1366,6 @@ vendor/etc/init/qdcmss.rc
 vendor/etc/init/qseecomd.rc
 vendor/etc/init/secure_storage_daemon_qsee.rc
 vendor/etc/init/snap_utility.rc
-vendor/etc/init/vaultkeeper_common.rc
 vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
 vendor/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc
 vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc
@@ -1438,7 +1374,6 @@ vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc
 vendor/etc/init/vppservice.rc
 vendor/etc/init/wifi.rc
 vendor/etc/init/wifi_brcm.rc
-vendor/etc/init/wsm-service.rc
 vendor/etc/locale/plmn_delta_eng.bin
 vendor/etc/locale/plmn_delta_zh-rCN.bin
 vendor/etc/locale/plmn_delta_zh-rHK.bin
@@ -1623,9 +1558,6 @@ vendor/lib/libsxqk.so
 vendor/lib/libsynaFpSensorTestNwd.so
 vendor/lib/libTigerCaV4.so
 vendor/lib/libTigerLogger.so
-vendor/lib/libucm_tlc_comm.so
-vendor/lib/libucm_tlc_direct_comm.so
-vendor/lib/libucm_tlc_tz_esecomm.so
 vendor/lib/libuniapi.so
 vendor/lib/libuniplugin.so
 vendor/lib/libvideobeauty_interface.so
@@ -1660,7 +1592,6 @@ vendor/lib64/libcryptfshwcommon.so
 vendor/lib64/libcryptfshwhidl.so
 vendor/lib64/libdiagjni.so
 vendor/lib64/libdisplayconfig.so
-vendor/lib64/libdsms_vendor.so
 vendor/lib64/libFacialStickerEngine.arcsoft.so
 vendor/lib64/libflicker.so
 vendor/lib64/libfloatingfeature.so
@@ -1745,14 +1676,7 @@ vendor/lib64/libsxqk.so
 vendor/lib64/libsynaFpSensorTestNwd.so
 vendor/lib64/libTigerCaV4.so
 vendor/lib64/libTigerLogger.so
-vendor/lib64/libtlc_comm_atn.so
-vendor/lib64/libtlc_comm_iccc.so
-vendor/lib64/libtlc_direct_comm_atn.so
-vendor/lib64/libtlc_direct_comm_iccc.so
 vendor/lib64/libtzcom.so
-vendor/lib64/libucm_tlc_comm.so
-vendor/lib64/libucm_tlc_direct_comm.so
-vendor/lib64/libucm_tlc_tz_esecomm.so
 vendor/lib64/libucsengine.so
 vendor/lib64/libuniapi.so
 vendor/lib64/libuniplugin.so
@@ -1761,7 +1685,6 @@ vendor/lib64/libvkmanager_vendor.so
 vendor/lib64/libvkservice.so
 vendor/lib64/libvndfwk_detect_jni.qti.so
 vendor/lib64/libvndsecril-client.so
-vendor/lib64/libwsmd_functions.so
 vendor/lib64/lib_SoundBooster_ver900.so
 vendor/lib64/soundfx/libgearvr.so
 vendor/lib64/soundfx/libmysound.so
@@ -1787,4 +1710,3 @@ vendor/saiv/image_understanding/db/aig_classifier/aig_classifier_cnn.prototxt
 vendor/saiv/image_understanding/db/aig_classifier/aig_classifier_cnn_light.caffemodel
 vendor/saiv/image_understanding/db/aig_detector/aig_detector_cnn.prototxt
 vendor/saiv/image_understanding/db/aig_detector/aig_detector_cnn_light.caffemodel
-vendor/tima_measurement_info
