@@ -151,8 +151,7 @@ PRODUCT_COPY_FILES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service \
-    android.hardware.keymaster@3.0-impl \
-    libcrypto_shim.vendor
+    android.hardware.keymaster@3.0-impl
 
 # Light
 PRODUCT_PACKAGES += \

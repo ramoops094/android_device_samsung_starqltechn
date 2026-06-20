@@ -29,12 +29,6 @@ function blob_fixup() {
         product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml)
             sed -i 's/version="2.0"/version="1.0"/g' "${2}"
             ;;
-        vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so | \
-            vendor/lib/libwvhidl.so | \
-            vendor/lib/mediadrm/libwvdrmengine.so)
-            [ "$2" = "" ] && return 0
-            "${PATCHELF}" --add-needed "libcrypto_shim.so" "${2}"
-            ;;
     esac
 }
 
