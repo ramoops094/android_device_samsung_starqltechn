@@ -84,6 +84,13 @@ prebuilt_etc {
     vendor: true,
 }
 
+prebuilt_root {
+    name: "ueventd.qcom.rc",
+    src: "etc/ueventd.qcom.rc",
+    filename: "ueventd.rc",
+    vendor: true,
+}
+
 // fstab
 prebuilt_etc {
     name: "fstab.qcom",

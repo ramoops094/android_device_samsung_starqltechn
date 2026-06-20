@@ -282,7 +282,8 @@ PRODUCT_PACKAGES += \
     init.starqlte.rc \
     init.samsung.display.rc \
     init.samsung.rc \
-    init.target.rc
+    init.target.rc \
+    ueventd.qcom.rc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
