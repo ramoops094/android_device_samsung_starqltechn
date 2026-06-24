@@ -746,7 +746,10 @@ vendor/lib64/libskeymaster3device.so
 vendor/lib64/libspcom.so
 
 # Keymaster workaround
--system/system/lib64/vndk-29/libkeymaster_portable.so:vendor/lib64/libkeymaster_portable.so;DISABLE_CHECKELF
+-/system/system/lib64/libkeymaster_portable.so:vendor/lib64/libkeymaster_portable.so;DISABLE_CHECKELF
+system/system/lib64/libsoftkeymasterdevice.so:vendor/lib64/libsoftkeymasterdevice.so
+system/system/lib64/libpuresoftkeymasterdevice.so:vendor/lib64/libpuresoftkeymasterdevice.so
+system/system/lib64/android.hardware.keymaster@3.0.so:vendor/lib64/android.hardware.keymaster@3.0.so
 
 # Latency
 -product/framework/vendor.qti.latency-V2.0-java.jar
