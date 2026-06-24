@@ -1,0 +1,8 @@
+cc_library_shared {
+    name: "libkeymaster_shim",
+    srcs: ["keymaster_shim.cpp"],
+    shared_libs: [
+        "libcrypto",
+    ],
+    vendor: true,
+}
