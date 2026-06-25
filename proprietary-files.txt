@@ -993,16 +993,6 @@ vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.color@1.2.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
-# Power-Hardware
-vendor/bin/hw/android.hardware.power@1.0-service
-vendor/etc/init/android.hardware.power@1.0-service.rc
-vendor/lib/hw/android.hardware.power@1.0-impl.so
-vendor/lib/hw/power.default.so
-vendor/lib/hw/power.qcom.so
-vendor/lib64/hw/android.hardware.power@1.0-impl.so
-vendor/lib64/hw/power.default.so
-vendor/lib64/hw/power.qcom.so
-
 # QMI
 etc/permissions/qti_telephony_hidl_wrapper.xml
 etc/permissions/qti_telephony_utils.xml
@@ -1147,7 +1137,6 @@ vendor/lib64/libsubsystem_control.so
 vendor/bin/hw/vendor.samsung.hardware.authfw@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.base@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.media.converter@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service
 vendor/bin/hw/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.vibrator@2.1-service
 vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service
@@ -1158,7 +1147,6 @@ vendor/etc/init/hw/init.samsung.rc
 vendor/etc/init/vendor.samsung.hardware.authfw@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.base@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.vibrator@2.1-service.rc
@@ -1191,7 +1179,6 @@ vendor/lib64/vendor.samsung.camera.device@4.0-impl.so
 vendor/lib64/vendor.samsung.hardware.authfw@1.0.so
 vendor/lib64/vendor.samsung.hardware.base@1.0.so
 vendor/lib64/vendor.samsung.hardware.media.converter@1.0.so
-vendor/lib64/vendor.samsung.hardware.miscpower@2.0.so
 vendor/lib64/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0.so
 vendor/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so
 vendor/lib64/vendor.samsung.hardware.vibrator@2.0.so
