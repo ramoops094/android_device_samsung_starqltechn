@@ -119,6 +119,9 @@ VENDOR_SECURITY_PATCH := 2022-05-01
 # SEPolicy
 include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 
+# VNDK
+BOARD_VNDK_VERSION := current
+
 # Wi-Fi
 BOARD_WLAN_DEVICE                := bcmdhd
 BOARD_WPA_SUPPLICANT_DRIVER      := NL80211
