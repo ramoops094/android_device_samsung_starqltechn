@@ -143,7 +143,6 @@ vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so
 vendor/lib/hw/audio.bluetooth.default.so
 vendor/lib/libbluetooth_audio_session.so
-system/system/lib64/vndk-29/android.hardware.bluetooth.a2dp@1.0.so:vendor/lib64/android.hardware.bluetooth.a2dp@1.0.so
 vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl.so
 vendor/lib64/hw/audio.bluetooth.default.so
@@ -768,7 +767,6 @@ vendor/lib/vendor.samsung.hardware.light@3.0.so
 vendor/lib64/hw/lights.sdm845.so
 vendor/lib64/hw/vendor.samsung.hardware.light@3.0-impl.so
 vendor/lib64/vendor.samsung.hardware.light@3.0.so
-system/system/lib64/android.hardware.light@2.0.so:vendor/lib64/android.hardware.light@2.0.so
 
 # Listen
 vendor/lib/hw/android.hardware.soundtrigger@2.0-impl.so
@@ -1274,7 +1272,6 @@ vendor/lib64/hw/vr.sdm845.so
 # Vibrator
 vendor/lib/hw/vibrator.default.so
 vendor/lib64/hw/vibrator.default.so
-system/system/lib64/android.hardware.vibrator@1.0.so:vendor/lib64/android.hardware.vibrator@1.0.so
 
 # Voice
 vendor/lib/vendor.qti.voiceprint@1.0.so
