@@ -56,10 +56,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl:64 \
     android.hardware.bluetooth@1.0-service
 
-# Camera
-PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.5-service
-
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
