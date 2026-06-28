@@ -108,13 +108,11 @@ vendor/lib/hw/audio.primary.sdm845.so
 vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.sec_primary.default.so
 vendor/lib/hw/audio.usb.default.so
-vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so
 vendor/lib/soundfx/libqcompostprocbundle.so
 vendor/lib/soundfx/libqcomvisualizer.so
 vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib/soundfx/libvolumelistener.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
-vendor/lib/vendor.samsung.hardware.audio@1.0.so
 vendor/lib64/android.hardware.audio.common-util.so
 vendor/lib64/android.hardware.audio.common@2.0-util.so
 vendor/lib64/android.hardware.audio.common@4.0-util.so
@@ -129,12 +127,10 @@ vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.r_submix.default.so
 vendor/lib64/hw/audio.sec_primary.default.so
 vendor/lib64/hw/audio.usb.default.so
-vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so
 vendor/lib64/soundfx/libqcompostprocbundle.so
 vendor/lib64/soundfx/libqcomvisualizer.so
 vendor/lib64/soundfx/libqcomvoiceprocessing.so
 vendor/lib64/soundfx/libvolumelistener.so
-vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service
@@ -506,8 +502,6 @@ vendor/lib64/ftm_fm_lib.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Fingerprint
-vendor/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service
-vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc
 vendor/lib/hw/fingerprint.default.so
 vendor/lib/libegis_fp_normal_sensor_test.so
 vendor/lib/libgf_in_system_lib.so
@@ -518,7 +512,6 @@ vendor/lib64/libegis_fp_normal_sensor_test.so
 vendor/lib64/libgf_in_system_lib.so
 vendor/lib64/libqfp_sensortest.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
-vendor/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so
 
 # Firmware
 vendor/firmware/a225p5_pm4.fw
@@ -749,14 +742,8 @@ vendor/lib/vendor.qti.latency@2.0.so
 vendor/lib64/vendor.qti.latency@2.0.so
 
 # Lights
-vendor/bin/hw/vendor.samsung.hardware.light@3.0-service
-vendor/etc/init/vendor.samsung.hardware.light@3.0-service.rc
 vendor/lib/hw/lights.sdm845.so
-vendor/lib/hw/vendor.samsung.hardware.light@3.0-impl.so
-vendor/lib/vendor.samsung.hardware.light@3.0.so
 vendor/lib64/hw/lights.sdm845.so
-vendor/lib64/hw/vendor.samsung.hardware.light@3.0-impl.so
-vendor/lib64/vendor.samsung.hardware.light@3.0.so
 
 # Listen
 vendor/lib/hw/android.hardware.soundtrigger@2.0-impl.so
@@ -898,7 +885,6 @@ vendor/etc/nfc/sec_s3nrn82_rfreg.bin
 vendor/etc/permissions/com.android.nfc_extras.xml
 vendor/etc/permissions/com.nxp.mifare.xml
 vendor/lib64/nfc_nci_sec.so
-vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
 
 # Neural-networks
 vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
@@ -1120,25 +1106,9 @@ vendor/lib64/libSubSystemShutdown.so
 vendor/lib64/libsubsystem_control.so
 
 # Samsung
-vendor/bin/hw/vendor.samsung.hardware.authfw@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.base@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.media.converter@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service
-vendor/bin/hw/vendor.samsung.hardware.vibrator@2.1-service
-vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service
-vendor/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service
 vendor/etc/init/hw/init.samsung.bsp.rc
 vendor/etc/init/hw/init.samsung.display.rc
 vendor/etc/init/hw/init.samsung.rc
-vendor/etc/init/vendor.samsung.hardware.authfw@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.base@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.vibrator@2.1-service.rc
-vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc
--vendor/etc/vintf/manifest/vendor.samsung.hardware.authfw@1.0-manifest.xml
--vendor/etc/vintf/manifest/vendor.samsung.hardware.base@1.0-service.xml
 vendor/lib/hw/com.samsung.chi.override.so
 vendor/lib/libDLInterface.camera.samsung.so
 vendor/lib/libOpenCv.camera.samsung.so
@@ -1158,20 +1128,6 @@ vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
 vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so
 vendor/lib64/lib_SoundAlive_play_plus_ver210.so
 vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
-vendor/lib64/vendor.samsung.hardware.authfw@1.0.so
-vendor/lib64/vendor.samsung.hardware.base@1.0.so
-vendor/lib64/vendor.samsung.hardware.media.converter@1.0.so
-vendor/lib64/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0.so
-vendor/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so
-vendor/lib64/vendor.samsung.hardware.vibrator@2.0.so
-vendor/lib64/vendor.samsung.hardware.vibrator@2.1.so
-vendor/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so
-vendor/lib64/vendor.samsung.hardware.wifi.hostapd@2.1.so
-vendor/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so
-vendor/lib64/vendor.samsung.hardware.wifi@2.0.so
-vendor/lib64/vendor.samsung.hardware.wifi@2.1.so
--vendor/overlay/NavigationBarModeSamsungGestural/NavigationBarModeSamsungGesturalOverlay.apk
--vendor/overlay/NavigationBarModeSamsungGesturalNoHint/NavigationBarModeSamsungGesturalNoHintOverlay.apk
 
 # Sensor-configs
 vendor/etc/sensors/config/ak991x_dri_0.json
