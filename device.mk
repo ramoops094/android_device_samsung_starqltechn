@@ -22,9 +22,11 @@ PRODUCT_COMPRESSED_APEX := false
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl:32 \
+    android.hardware.bluetooth.a2dp@1.0.vendor \
     android.hardware.audio.effect@5.0-impl:32 \
     android.hardware.audio.service \
-    android.hardware.soundtrigger@2.1-impl:32
+    android.hardware.soundtrigger@2.1-impl:32 \
+    android.hardware.soundtrigger@2.2.vendor
 
 # Audio HW module
 PRODUCT_PACKAGES += \
@@ -137,6 +139,7 @@ PRODUCT_PACKAGES += \
 
 # GNSS
 PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.0.vendor \
     android.hardware.gnss@2.0.vendor
 
 # Health
@@ -171,6 +174,7 @@ PRODUCT_PACKAGES += \
 
 # Light
 PRODUCT_PACKAGES += \
+    android.hardware.light@2.0.vendor \
     android.hardware.light-service.samsung
 
 # IPACM
@@ -259,6 +263,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
+    android.hardware.power@1.2.vendor \
     android.hardware.power-service-qti
 
 # Perf
@@ -334,6 +339,10 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.0.vendor \
+    android.hardware.vibrator@1.1.vendor \
+    android.hardware.vibrator@1.2.vendor \
+    android.hardware.vibrator@1.3.vendor \
     android.hardware.vibrator-service.samsung
 
 # VNDK
