@@ -38,7 +38,6 @@ ro.bluetooth.a2dp_offload.supported=true
 ro.fastbootd.available=true
 ro.frp.pst=/dev/block/persistent
 ro.hardware.egl=adreno
-ro.hardware.keystore=mdfpp
 ro.hardware.vulkan=adreno
 ro.logd.size.stats=64K
 ro.oem_unlock_supported=1

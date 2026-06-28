@@ -29,9 +29,6 @@ function blob_fixup() {
         product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml)
             sed -i 's/version="2.0"/version="1.0"/g' "${2}"
             ;;
-        vendor/lib64/libkeymaster_portable.so)
-            "${PATCHELF}" --add-needed libkeymaster_shim.so "${2}"
-            ;;
         vendor/bin/hw/android.hardware.health@2.0-service.samsung)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v30.so" "${2}"
