@@ -71,7 +71,7 @@ BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom video=vfb:640x400
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 KERNEL_SUPPORTS_LLVM_TOOLS := true
-TARGET_KERNEL_CONFIG := starqlte_chn_open_defconfig
+TARGET_KERNEL_CONFIG := sdm845_defconfig starqlte_chn.config
 TARGET_KERNEL_SOURCE := kernel/samsung/sdm845
 
 # Manifest
