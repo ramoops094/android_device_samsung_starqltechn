@@ -1,0 +1,27 @@
+# --- Vendor-Specific binaries and daemons ---
+/(vendor|system/vendor)/bin/secril_config_svc                                         u:object_r:rild_exec:s0
+/(vendor|system/vendor)/bin/iof_vendor                                                u:object_r:iof_vendor_exec:s0
+/(vendor|system/vendor)/bin/pm_proxy_helper                                           u:object_r:pm_proxy_helper_exec:s0
+
+# --- HALs ---
+# Gatekeeper (Software)
+/(vendor|system/vendor)/bin/hw/android\.hardware\.gatekeeper@1\.0-service\.software   u:object_r:hal_gatekeeper_default_exec:s0
+
+# Battery
+/(vendor|system/vendor)/bin/hw/android\.hardware\.health@2\.0-service\.samsung        u:object_r:hal_health_default_exec:s0
+
+# Lights
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.samsung              u:object_r:hal_light_default_exec:s0
+
+# Sensors
+/(vendor|system/vendor)/bin/hw/android\.hardware\.sensors-service\.samsung-multihal   u:object_r:hal_sensors_default_exec:s0
+
+# USB
+/(vendor|system/vendor)/bin/hw/android\.hardware\.usb-service\.samsung                u:object_r:hal_usb_default_exec:s0
+
+# Vibrator
+/(vendor|system/vendor)/bin/hw/android\.hardware\.vibrator-service\.samsung           u:object_r:hal_vibrator_default_exec:s0
+
+# Trustonic TEE
+/(vendor|system/vendor)/bin/hw/vendor\.trustonic\.tee@1\.0-service                    u:object_r:tee_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.trustonic\.teeregistry@1\.0-service            u:object_r:tee_exec:s0
