@@ -9,6 +9,8 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 DEVICE_PATH := device/samsung/starqltechn
 
+TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
