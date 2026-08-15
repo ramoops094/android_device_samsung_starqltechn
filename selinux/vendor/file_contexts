@@ -1,6 +1,5 @@
 # --- Vendor-Specific binaries and daemons ---
 /(vendor|system/vendor)/bin/secril_config_svc                                         u:object_r:rild_exec:s0
-/(vendor|system/vendor)/bin/iof_vendor                                                u:object_r:iof_vendor_exec:s0
 /(vendor|system/vendor)/bin/pm_proxy_helper                                           u:object_r:pm_proxy_helper_exec:s0
 
 # --- HALs ---

@@ -1244,7 +1244,6 @@ vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
 vendor/bin/hw/vendor.trustonic.tee@1.0-service
 vendor/bin/hw/vendor.trustonic.teeregistry@1.0-service
 vendor/bin/hw/wldu
-vendor/bin/iof_vendor
 vendor/bin/ipacm-diag
 vendor/bin/loadalgo
 vendor/bin/mcDriverDaemon
@@ -1274,7 +1273,6 @@ vendor/etc/floating_feature.xml
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/hearing_aid_audio_policy_configuration.xml
 vendor/etc/init/dataadpl.rc
-vendor/etc/init/icd_over_five_vendor.rc
 vendor/etc/init/init-qcril-data.rc
 vendor/etc/init/init.time_daemon.rc
 vendor/etc/init/ipa_fws.rc
