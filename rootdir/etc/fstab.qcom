@@ -8,7 +8,7 @@
 #<src>                                                 <mnt_point>         <type>  <mnt_flags and options>                             <fs_mgr_flags>
 /dev/block/bootdevice/by-name/system                    /system             ext4    ro                                      wait,first_stage_mount
 /dev/block/bootdevice/by-name/userdata	/data	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered	wait,check,quota,formattable
-#/dev/block/bootdevice/by-name/vendor                    /vendor             ext4    ro,barrier=1,discard                                 wait,first_stage_mount
+/dev/block/bootdevice/by-name/vendor                    /vendor             ext4    ro,barrier=1,discard                                 wait,first_stage_mount
 /dev/block/bootdevice/by-name/persist	/mnt/vendor/persist	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered	wait,check
 /dev/block/bootdevice/by-name/cache	/cache	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered	wait,check
 /dev/block/bootdevice/by-name/apnhlos                   /vendor/firmware_mnt   vfat    ro,context=u:object_r:firmware_file:s0,shortname=lower,uid=0,gid=1000,dmask=227,fmask=337 wait
