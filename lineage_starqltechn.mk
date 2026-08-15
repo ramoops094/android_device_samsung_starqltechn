@@ -25,6 +25,6 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="starqltezh-user 10 QP1A.190711.020 G9600ZHU9FWC3 release-keys"
+    PRIVATE_BUILD_DESC="starqltezh-user 10 QP1A.190711.020 G9600ZHU9FVF2 release-keys"
 
-BUILD_FINGERPRINT := samsung/starqltezh/starqltechn:10/QP1A.190711.020/G9600ZHU9FWC3:user/release-keys
+BUILD_FINGERPRINT := samsung/starqltezh/starqltechn:10/QP1A.190711.020/G9600ZHU9FVF2:user/release-keys

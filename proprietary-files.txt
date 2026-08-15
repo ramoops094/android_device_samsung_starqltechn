@@ -1,4 +1,4 @@
-# All blobs from starqltezh-user 10 QP1A.190711.020 G9600ZHU9FWC3 release-keys, unless pinned
+# All blobs from starqltezh-user 10 QP1A.190711.020 G9600ZHU9FVF2 release-keys, unless pinned
 
 # ADSP
 vendor/bin/adsprpcd
