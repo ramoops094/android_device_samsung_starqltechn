@@ -1083,6 +1083,9 @@ vendor/lib64/libSubSystemShutdown.so
 vendor/lib64/libsubsystem_control.so
 
 # Samsung
+vendor/etc/init/hw/init.samsung.bsp.rc
+vendor/etc/init/hw/init.samsung.display.rc
+vendor/etc/init/hw/init.samsung.rc
 vendor/lib/hw/com.samsung.chi.override.so
 vendor/lib/libDLInterface.camera.samsung.so
 vendor/lib/libOpenCv.camera.samsung.so
@@ -1261,6 +1264,9 @@ vendor/etc/gpfspath_oem_config.xml
 vendor/etc/init/dataadpl.rc
 vendor/etc/init/init-qcril-data.rc
 vendor/etc/init/init.time_daemon.rc
+vendor/etc/init/init.vendor.onebinary.rc
+vendor/etc/init/init.vendor.rilchip.rc
+vendor/etc/init/init.vendor.rilcommon.rc
 vendor/etc/init/ipa_fws.rc
 vendor/etc/init/ipacm-diag.rc
 vendor/etc/init/ipacm.rc
@@ -1275,6 +1281,8 @@ vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc
 vendor/etc/init/vendor.trustonic.tee@1.0-service.rc
 vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc
 vendor/etc/init/vppservice.rc
+vendor/etc/init/wifi.rc
+vendor/etc/init/wifi_brcm.rc
 vendor/etc/locale/plmn_delta_eng.bin
 vendor/etc/locale/plmn_delta_zh-rCN.bin
 vendor/etc/locale/plmn_delta_zh-rHK.bin
