@@ -99,18 +99,15 @@ ro.vendor.display.cabl=2
 vendor.display.disable_ext_anim=1
 vendor.display.enable_default_color_mode=1
 
+# Debug
+ro.secure=0
+ro.adb.secure=0
+
 # FRP
 ro.frp.pst=/dev/block/persistent
 
-# Gatekeeper
-ro.hardware.gatekeeper=mdfpp
-
 # GPS
 persist.backup.ntpServer=0.pool.ntp.org
-
-# Keystore
-ro.hardware.keystore=mdfpp
-ro.security.keystore.keytype=sak,gak
 
 # Media
 debug.stagefright.omx_default_rank=0

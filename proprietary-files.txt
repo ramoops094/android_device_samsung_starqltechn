@@ -555,7 +555,6 @@ lib64/liblocationservice_jni.so
 lib64/libxt_native.so
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti
 vendor/bin/loc_launcher
-vendor/bin/lowi-server
 vendor/bin/xtra-daemon
 vendor/etc/cacert_location.pem
 vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc
@@ -578,8 +577,6 @@ vendor/lib/libloc_socket.so
 vendor/lib/liblocation_api.so
 vendor/lib/liblocationservice.so
 vendor/lib/liblocationservice_glue.so
-vendor/lib/liblowi_client.so
-vendor/lib/liblowi_wifihal.so
 vendor/lib/libxtadapter.so
 vendor/lib/vendor.qti.gnss@1.0.so
 vendor/lib/vendor.qti.gnss@1.1.so
@@ -605,8 +602,6 @@ vendor/lib64/libloc_socket.so
 vendor/lib64/liblocation_api.so
 vendor/lib64/liblocationservice.so
 vendor/lib64/liblocationservice_glue.so
-vendor/lib64/liblowi_client.so
-vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libqdma.so
 vendor/lib64/libqdma_file_agent.so
 vendor/lib64/libxtadapter.so
@@ -634,11 +629,6 @@ vendor/bin/hw/android.hardware.gatekeeper@1.0-service
 vendor/lib/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.mdfpp.so
-
-# Google
--vendor/overlay/GoogleExtServicesConfigOverlay.apk
--vendor/overlay/GooglePermissionControllerFrameworkOverlay.apk
--vendor/overlay/GooglePermissionControllerOverlay.apk
 
 # Graphics
 vendor/lib/egl/eglSubDriverAndroid.so
@@ -725,8 +715,6 @@ vendor/lib64/hw/keystore.mdfpp.so
 vendor/lib64/libkeymaster2_mdfpp.so
 vendor/lib64/libkeymaster3device.so
 vendor/lib64/libkeymaster_helper_vendor.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/libskeymaster3device.so
 vendor/lib64/libspcom.so
 
@@ -873,12 +861,8 @@ vendor/etc/system_properties.xml
 
 # NFC
 etc/nfcee_access.xml
-vendor/bin/hw/sec.android.hardware.nfc@1.2-service
-vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc
 vendor/etc/libnfc-sec-vendor.conf
 vendor/etc/nfc/sec_s3nrn82_rfreg.bin
-vendor/etc/permissions/com.android.nfc_extras.xml
-vendor/etc/permissions/com.nxp.mifare.xml
 vendor/lib64/nfc_nci_sec.so
 
 # Neural-networks
@@ -1001,8 +985,6 @@ vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
 # Radio
-etc/permissions/privapp-permissions-qti.xml
-etc/sysconfig/qti_whitelist.xml
 -product/framework/embmslibrary.jar
 vendor/bin/ATFWD-daemon
 vendor/bin/netmgrd
@@ -1144,7 +1126,6 @@ vendor/etc/sensors/sns_reg_config
 
 # Sensors
 vendor/bin/hw/android.hardware.sensors@1.0-service
-vendor/etc/init/android.hardware.sensors@1.0-service.rc
 vendor/lib/hw/android.hardware.sensors@1.0-impl.so
 vendor/lib/libsensorlistener.so
 vendor/lib/libsensorslog.so
@@ -1212,11 +1193,18 @@ lib/libwfdaac.so
 vendor/lib/libwfdaac_vendor.so
 
 # WiFi
-vendor/bin/hw/android.hardware.wifi@1.0-service
-vendor/etc/init/android.hardware.wifi@1.0-service.rc
-vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc
-vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so
-
+vendor/etc/wifi/bcmdhd_clm.blob
+vendor/etc/wifi/bcmdhd_mfg.bin_b0
+vendor/etc/wifi/bcmdhd_mfg.bin_b2
+vendor/etc/wifi/bcmdhd_mon.bin_b2
+vendor/etc/wifi/bcmdhd_sta.bin_b0
+vendor/etc/wifi/bcmdhd_sta.bin_b2
+vendor/etc/wifi/nvram.txt_murata_r020_b2
+vendor/etc/wifi/nvram.txt_murata_r021_b2
+vendor/etc/wifi/nvram.txt_murata_r022_b2
+vendor/etc/wifi/nvram.txt_murata_r031_b2
+vendor/etc/wifi/nvram.txt_murata_r033_b0
+vendor/etc/wifi/nvram.txt_murata_r041_b2
 # Misc
 vendor/app/mcRegistry/07010000000000000000000000000000.tlbin
 vendor/app/mcRegistry/ffffffffd00000000000000000000014.tlbin
@@ -1265,13 +1253,11 @@ vendor/bin/test_diag
 vendor/bin/test_model.json
 vendor/bin/time_client
 vendor/bin/vppservice
-vendor/bin/wifilearner
 vendor/bin/wvkprov
 vendor/etc/SoundBoosterParam.txt
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/floating_feature.xml
 vendor/etc/gpfspath_oem_config.xml
-vendor/etc/hearing_aid_audio_policy_configuration.xml
 vendor/etc/init/dataadpl.rc
 vendor/etc/init/init-qcril-data.rc
 vendor/etc/init/init.time_daemon.rc
@@ -1483,7 +1469,6 @@ vendor/lib/libvndfwk_detect_jni.qti.so
 vendor/lib/libvndsecril-client.so
 vendor/lib/libvorbisidec.so
 vendor/lib/libvpx.so
-vendor/lib/libwifi-hal.so
 vendor/lib/soundfx/libgearvr.so
 vendor/lib/soundfx/libmysound.so
 vendor/lib/soundfx/libmyspace.so
