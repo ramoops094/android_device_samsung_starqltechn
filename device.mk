@@ -192,31 +192,6 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0.vendor \
     android.hardware.light-service.samsung
 
-# Init scripts
-PRODUCT_PACKAGES += \
-    fstab.qcom \
-    init.qcom.rc \
-    init.qcom.usb.rc \
-    init.recovery.qcom.rc \
-    init.samsung.rc \
-    init.samsung.bsp.rc \
-    init.samsung.display.rc \
-    init.starqlte.rc \
-    init.starqltezh.rc \
-    init.target.rc \
-    init.vendor.onebinary.rc \
-    init.vendor.rilchip.rc \
-    init.vendor.rilcommon.rc \
-    ueventd.qcom.rc \
-    wifi_brcm.rc \
-    wifi.rc \
-    init.class_main.sh \
-    init.qcom.early_boot.sh \
-    init.qcom.post_boot.sh \
-    init.qcom.sensors.sh \
-    init.qcom.sh \
-    init.qcom.usb.sh
-
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
@@ -331,6 +306,25 @@ PRODUCT_PACKAGES += \
     libjson \
     librmnetctl \
     secril_config_svc
+
+# Rootdir
+PRODUCT_PACKAGES += \
+    init.class_main.sh \
+    init.qcom.class_core.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.post_boot.sh \
+    init.qcom.sh \
+    init.qcom.usb.sh
+
+PRODUCT_PACKAGES += \
+    fstab.qcom \
+    init.qcom.rc \
+    init.qcom.usb.rc \
+    init.starqlte.rc \
+    init.samsung.display.rc \
+    init.samsung.rc \
+    init.target.rc \
+    ueventd.qcom.rc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
