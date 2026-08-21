@@ -95,5 +95,7 @@ prebuilt_root {
 prebuilt_etc {
     name: "fstab.qcom",
     src: "etc/fstab.qcom",
+    soc_specific: true,
+    ramdisk_available: true,
     vendor: true,
 }

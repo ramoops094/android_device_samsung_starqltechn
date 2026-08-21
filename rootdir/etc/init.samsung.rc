@@ -40,7 +40,6 @@ on init
     symlink /dev/block/bootdevice/by-name/steady  /dev/block/steady
 
 on fs
-    mount_all /vendor/etc/fstab.samsung --early
     mount none /mnt/vendor/efs /efs bind
     mount none /mnt/vendor/dqmdbg /dqmdbg bind
 
@@ -56,9 +55,6 @@ on post-fs
     chown system system /dqmdbg
     chmod 0770 /dqmdbg
     restorecon_recursive /dqmdbg
-
-on late-fs
-    mount_all /vendor/etc/fstab.samsung --late
 
 on post-fs-data
     #argos
