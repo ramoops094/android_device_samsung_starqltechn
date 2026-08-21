@@ -1310,6 +1310,7 @@ vendor/etc/saiv/ld/avg_hog_35pt.dat
 vendor/etc/saiv/ld/mean_35pt.txt
 vendor/etc/saiv/ld/regress_matrix_short_13pt.dat
 vendor/etc/saiv/ld/regress_matrix_short_35pt.dat
+vendor/etc/sec_config
 vendor/etc/sec_config_oem
 vendor/etc/snap_gpu_kernel_32.bin
 vendor/etc/snap_gpu_kernel_64.bin
