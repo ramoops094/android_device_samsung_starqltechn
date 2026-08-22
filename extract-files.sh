@@ -40,6 +40,7 @@ function blob_fixup() {
         vendor/lib64/libsec-ril.so|vendor/lib64/libsec-ril-dsds.so)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libcutils.so" "libcutils-v29.so" "${2}"
+            sed -i 's/ril\.dds\.call\.slotid/vendor.calls.slotid/g' "${2}"
             ;;
     esac
 }
