@@ -133,8 +133,6 @@ VENDOR_SECURITY_PATCH := 2022-05-01
 # SEPolicy 
 include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-
 # VNDK
 BOARD_VNDK_VERSION := current
 
