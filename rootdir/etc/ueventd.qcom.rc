@@ -350,6 +350,10 @@ firmware_directories /vendor/firmware_mnt/image/ /vendor/firmware-modem/image/
 # Kmsg device
 /dev/kmsg                                               0620   root       system
 
+# Torch
+/sys/devices/virtual/camera/flash rear_torch_flash 0664 system camera
+/sys/devices/virtual/camera/flash rear_flash       0664 system camera
+
 # LED class devices
 /sys/class/leds/red      delay_on     0640    system    system
 /sys/class/leds/red      delay_off    0640    system    system
@@ -360,6 +364,11 @@ firmware_directories /vendor/firmware_mnt/image/ /vendor/firmware-modem/image/
 /sys/class/leds/blue     delay_on     0640    system    system
 /sys/class/leds/blue     delay_off    0640    system    system
 /sys/class/leds/blue     breath       0640    system    system
+/sys/devices/virtual/sec/led led_r       0664 system system
+/sys/devices/virtual/sec/led led_g       0664 system system
+/sys/devices/virtual/sec/led led_b       0664 system system
+/sys/devices/virtual/sec/led led_pattern 0664 system system
+/sys/devices/virtual/sec/led led_blink   0664 system system
 
 # NPU device
 /dev/msm_npu             0644   system     system
