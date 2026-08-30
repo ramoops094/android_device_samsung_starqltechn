@@ -30,6 +30,7 @@ PRODUCT_PACKAGES += \
 
 # Audio HW module
 PRODUCT_PACKAGES += \
+    audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \
     libqcompostprocbundle \
