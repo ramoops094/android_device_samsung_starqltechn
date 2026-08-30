@@ -571,9 +571,16 @@ vendor/lib64/libgps.utils.so
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service
+vendor/bin/hw/vendor.trustonic.tee@1.0-service
+vendor/bin/hw/vendor.trustonic.teeregistry@1.0-service
+vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
+vendor/etc/init/vendor.trustonic.tee@1.0-service.rc
+vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc
 vendor/lib/android.hardware.gatekeeper@1.0-impl.so
-vendor/lib64/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.mdfpp.so
+vendor/lib64/android.hardware.gatekeeper@1.0-impl.so
+vendor/lib64/vendor.trustonic.tee@1.0.so
+vendor/lib64/vendor.trustonic.teeregistry@1.0.so
 
 # Graphics (Adreno) - from PNX - PNX_00WW_FIH-user-11-RKQ1.200906.002-00WW_6_21F-release-keys
 vendor/lib/egl/eglSubDriverAndroid.so|cc5acc02889131a29b624b4c19ab90b8273f393d
@@ -657,6 +664,7 @@ vendor/firmware/ipa_fws.mdt
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service
+vendor/etc/init/android.hardware.keymaster@3.0-service.rc
 vendor/lib/hw/android.hardware.keymaster@3.0-impl.so
 vendor/lib/libkeymaster3device.so
 vendor/lib/libskeymaster3device.so
@@ -1164,8 +1172,6 @@ vendor/bin/hw/mfgloader
 vendor/bin/hw/rild
 vendor/bin/hw/vendor.qti.hardware.cryptfshw@1.0-service-qti
 vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
-vendor/bin/hw/vendor.trustonic.tee@1.0-service
-vendor/bin/hw/vendor.trustonic.teeregistry@1.0-service
 vendor/bin/hw/wldu
 vendor/bin/ipacm-diag
 vendor/bin/loadalgo
@@ -1210,8 +1216,6 @@ vendor/etc/init/snap_utility.rc
 vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
 vendor/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc
 vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc
-vendor/etc/init/vendor.trustonic.tee@1.0-service.rc
-vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc
 vendor/etc/init/vppservice.rc
 vendor/etc/init/wifi.rc
 vendor/etc/init/wifi_brcm.rc
@@ -1534,8 +1538,6 @@ vendor/lib64/vendor.qti.hardware.automotive.vehicle@1.0.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 vendor/lib64/vendor.qti.hardware.cryptfshw@1.0.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
-vendor/lib64/vendor.trustonic.tee@1.0.so
-vendor/lib64/vendor.trustonic.teeregistry@1.0.so
 vendor/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.prototxt
 vendor/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn_light.caffemodel
 vendor/saiv/image_understanding/db/aic_detector/aic_detector_cnn.prototxt
