@@ -42,6 +42,24 @@ function blob_fixup() {
             "${PATCHELF}" --replace-needed "libcutils.so" "libcutils-v29.so" "${2}"
             sed -i 's/ril\.dds\.call\.slotid/vendor.calls.slotid/g' "${2}"
             ;;
+        vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so)
+            "${PATCHELF}" --replace-needed libcrypto.so libcrypto-v29.so "${2}"
+            "${PATCHELF}" --replace-needed libkeymaster_portable.so libkeymaster_portable-v29.so "${2}"
+            "${PATCHELF}" --replace-needed libpuresoftkeymasterdevice.so libpuresoftkeymasterdevice-v29.so "${2}"
+            "${PATCHELF}" --replace-needed libsoftkeymasterdevice.so libsoftkeymasterdevice-v29.so "${2}"
+            ;;
+        vendor/lib64/libkeymaster3device.so)
+            "${PATCHELF}" --replace-needed libcrypto.so libcrypto-v29.so "${2}"
+            "${PATCHELF}" --replace-needed libkeymaster_portable.so libkeymaster_portable-v29.so "${2}"
+            "${PATCHELF}" --replace-needed libpuresoftkeymasterdevice.so libpuresoftkeymasterdevice-v29.so "${2}"
+            "${PATCHELF}" --replace-needed libsoftkeymasterdevice.so libsoftkeymasterdevice-v29.so "${2}"
+            ;;
+        vendor/lib64/libskeymaster3device.so)
+            "${PATCHELF}" --replace-needed libcrypto.so libcrypto-v29.so "${2}"
+            "${PATCHELF}" --replace-needed libkeymaster_portable.so libkeymaster_portable-v29.so "${2}"
+            "${PATCHELF}" --replace-needed libpuresoftkeymasterdevice.so libpuresoftkeymasterdevice-v29.so "${2}"
+            "${PATCHELF}" --replace-needed libsoftkeymasterdevice.so libsoftkeymasterdevice-v29.so "${2}"
+            ;;
     esac
 }
 
