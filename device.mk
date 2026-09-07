@@ -337,6 +337,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.qcom.ramdisk \
     init.qcom.rc \
+    init.qcom.recovery.rc \
     init.qcom.usb.rc \
     init.starqlte.rc \
     init.samsung.display.rc \

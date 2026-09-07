@@ -50,6 +50,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.qcom.recovery.rc",
+    src: "etc/init.qcom.recovery.rc",
+    sub_dir: "init",
+    recovery: true,
+}
+
+prebuilt_etc {
     name: "init.qcom.usb.rc",
     src: "etc/init.qcom.usb.rc",
     sub_dir: "init/hw",
