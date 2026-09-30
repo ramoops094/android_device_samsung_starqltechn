@@ -1,4 +1,4 @@
-# All blobs from starqltezh-user 10 QP1A.190711.020 G9600ZHU9FVF2 release-keys, unless pinned
+# All blobs from star2qltezh-user 10 QP1A.190711.020 G9650ZHU9FVF2 release-keys, unless pinned
 
 # ADSP
 vendor/bin/adsprpcd
@@ -232,6 +232,7 @@ vendor/lib/camera/com.qti.sensor.s5k5f1sx.so
 vendor/lib/camera/com.qti.sensormodule.0_imx345.bin
 vendor/lib/camera/com.qti.sensormodule.1_imx320.bin
 vendor/lib/camera/com.qti.sensormodule.2_s5k5f1sx.bin
+vendor/lib/camera/com.qti.sensormodule.3_s5k3m3.bin
 vendor/lib/camera/com.qti.sensormodule.4_imx320_full.bin
 vendor/lib/camera/components/com.qti.eisv2.so
 vendor/lib/camera/components/com.qti.eisv3.so
@@ -248,6 +249,10 @@ vendor/lib/camera/components/com.qti.stats.pdlib.so
 vendor/lib/camera/components/com.qti.stats.pdlibsony.so
 vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so
 vendor/lib/camera/components/com.samsung.node.bayerfuse.so
+vendor/lib/camera/components/com.samsung.node.capture_bokeh.so
+vendor/lib/camera/components/com.samsung.node.capture_fusion.so
+vendor/lib/camera/components/com.samsung.node.realtimebokeh.so
+vendor/lib/camera/components/com.samsung.node.smooth_transition.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_capture.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_preview.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so
@@ -256,6 +261,7 @@ vendor/lib/camera/components/com.ss.stats.aec.so
 vendor/lib/camera/components/com.ss.stats.af.so
 vendor/lib/camera/components/com.ss.stats.awb.so
 vendor/lib/camera/components/com.ss.stats.pdlib.so
+vendor/lib/camera/arcsoft_calibration.bin
 vendor/lib/camera/eebindriver.bin
 vendor/lib/camera/fdconfigpreview.bin
 vendor/lib/camera/fdconfigvideo.bin
@@ -263,6 +269,7 @@ vendor/lib/camera/imx320tuned.bin
 vendor/lib/camera/imx345tuned.bin
 vendor/lib/camera/ois_fw_dom.bin
 vendor/lib/camera/ois_fw_sec.bin
+vendor/lib/camera/s5k3m3tuned.bin
 vendor/lib/camera/s5k5f1sxtuned.bin
 vendor/lib/camera/systemdefault.bin
 vendor/lib/camera/titan17x_usecases.bin
@@ -275,6 +282,9 @@ vendor/lib/libcamxswprocessalgo.so
 vendor/lib/libcapiv2svacnn.so
 vendor/lib/libcapiv2vop.so
 vendor/lib/libcom.qti.chinodeutils.so
+vendor/lib/libdualcam_optical_zoom.so
+vendor/lib/libdualcam_refocus.so
+vendor/lib/libdualcapture.so
 vendor/lib/libdualcam_optical_zoom_control.so
 vendor/lib/libgui_vendor.so
 vendor/lib/libmpbase.so
@@ -479,7 +489,7 @@ vendor/lib64/vendor.display.config@1.8.so
 vendor/lib64/vendor.display.config@1.9.so
 
 # Display-calibration
-vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3HA8_AMB577PX01_WQHD.xml
+vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3HA8_AMB622NP01_WQHD.xml
 
 # Dolby
 vendor/etc/dolby/dax-default.xml
@@ -640,6 +650,7 @@ vendor/lib/hw/vulkan.sdm845.so
 vendor/lib/libC2D2.so
 vendor/lib/libCB.so
 vendor/lib/libOpenCL.so
+vendor/lib/libarcsoft_stereodistancemeasure.so
 vendor/lib/libRSDriver_adreno.so
 vendor/lib/libadreno_utils.so
 vendor/lib/libbccQTI.so
@@ -1086,7 +1097,15 @@ vendor/etc/init/hw/init.samsung.bsp.rc
 vendor/etc/init/hw/init.samsung.display.rc
 vendor/etc/init/hw/init.samsung.rc
 vendor/lib/hw/com.samsung.chi.override.so
+vendor/lib/libBeauty_v4.camera.samsung.so
 vendor/lib/libDLInterface.camera.samsung.so
+vendor/lib/libFacePreProcessing.camera.samsung.so
+vendor/lib/libHprFace_GAE_api.camera.samsung.so
+vendor/lib/libHpr_RecGAE_cvFeature_v1.0.camera.samsung.so
+vendor/lib/liblivefocus_capture_engine.so
+vendor/lib/liblivefocus_capture_interface.so
+vendor/lib/liblivefocus_preview_engine.so
+vendor/lib/liblivefocus_preview_interface.so
 vendor/lib/libOpenCv.camera.samsung.so
 vendor/lib/lib_SamsungRec_06006.so
 vendor/lib/lib_SoundAlive_3DPosition_ver202.so
@@ -1099,6 +1118,15 @@ vendor/lib/libxcv.camera.samsung.so
 vendor/lib/soundfx/libsamsungSoundbooster_plus.so
 vendor/lib64/libDLInterface.camera.samsung.so
 vendor/lib64/libOpenCv.camera.samsung.so
+vendor/lib/libSEF.quram.so
+vendor/lib64/libBeauty_v4.camera.samsung.so
+vendor/lib64/libFacePreProcessing.camera.samsung.so
+vendor/lib64/libHprFace_GAE_api.camera.samsung.so
+vendor/lib64/libHpr_RecGAE_cvFeature_v1.0.camera.samsung.so
+vendor/lib64/liblivefocus_capture_engine.so
+vendor/lib64/liblivefocus_capture_interface.so
+vendor/lib64/liblivefocus_preview_engine.so
+vendor/lib64/liblivefocus_preview_interface.so
 vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
 vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so
 vendor/lib64/lib_SoundAlive_play_plus_ver210.so
@@ -1207,6 +1235,8 @@ vendor/etc/wifi/nvram.txt_murata_r022_b2
 vendor/etc/wifi/nvram.txt_murata_r031_b2
 vendor/etc/wifi/nvram.txt_murata_r033_b0
 vendor/etc/wifi/nvram.txt_murata_r041_b2
+vendor/etc/wifi/nvram.txt_r02a_b2
+
 # Misc
 vendor/app/mcRegistry/07010000000000000000000000000000.tlbin
 vendor/app/mcRegistry/ffffffffd00000000000000000000014.tlbin
