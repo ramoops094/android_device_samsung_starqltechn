@@ -78,8 +78,8 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.starqlte.rc",
-    src: "etc/init.starqlte.rc",
+    name: "init.star2qlte.rc",
+    src: "etc/init.star2qlte.rc",
     sub_dir: "init/hw",
     vendor: true,
 }

@@ -28,7 +28,7 @@
 #
 on boot
 # SSWAP
-    write /proc/sys/vm/swappiness 160
+    write /proc/sys/vm/swappiness 130
 
 #Samsung Members logging
     setprop persist.vendor.members.cp_sup on
@@ -46,7 +46,7 @@ on fs
 
 # Create mb_po folder for Activation TA
    mkdir /efs/mb_po 0700 system system
-
+   
 # irisd
 service irisd /system/bin/irisd
     class late_start

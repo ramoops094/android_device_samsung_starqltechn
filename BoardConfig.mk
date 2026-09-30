@@ -7,7 +7,7 @@
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
-DEVICE_PATH := device/samsung/starqltechn
+DEVICE_PATH := device/samsung/star2qltechn
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
@@ -85,7 +85,7 @@ BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/1d84000.ufshc
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 KERNEL_SUPPORTS_LLVM_TOOLS := true
-TARGET_KERNEL_CONFIG := sdm845_defconfig starqlte_chn.config
+TARGET_KERNEL_CONFIG := sdm845_defconfig star2qlte_chn.config
 TARGET_KERNEL_SOURCE := kernel/samsung/sdm845
 
 # Manifest
@@ -98,7 +98,7 @@ TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := starqltechn
+TARGET_OTA_ASSERT_DEVICE := star2qltechn
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
@@ -153,4 +153,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
 WIFI_DRIVER_FW_PATH_PARAM        := "/sys/module/dhd/parameters/firmware_path"
 
-include vendor/samsung/starqltechn/BoardConfigVendor.mk
+include vendor/samsung/star2qltechn/BoardConfigVendor.mk
