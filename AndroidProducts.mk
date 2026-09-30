@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_star2qltechn.mk
+    $(LOCAL_DIR)/aosp_star2qltechn.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_star2qltechn-user \
-    lineage_star2qltechn-userdebug \
-    lineage_star2qltechn-eng
+    aosp_star2qltechn-user \
+    aosp_star2qltechn-userdebug \
+    aosp_star2qltechn-eng
