@@ -431,5 +431,5 @@ PRODUCT_COPY_FILES += \
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-# Inherit from starqltechn vendor tree
-$(call inherit-product, vendor/samsung/starqltechn/starqltechn-vendor.mk)
+# Inherit from star2qltechn vendor tree
+$(call inherit-product, vendor/samsung/star2qltechn/star2qltechn-vendor.mk)

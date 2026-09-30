@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
     <item name="none">0</item>
-    <item name="ambient.on.display0">20</item>
-    <item name="screen.on.display0">76</item>
-    <item name="screen.full.display0">297.5</item>
+    <item name="ambient.on.display0">21</item>
+    <item name="screen.on.display0">77.5</item>
+    <item name="screen.full.display0">322.2</item>
     <item name="bluetooth.active">0</item>
     <item name="bluetooth.on">0</item>
     <item name="wifi.on">0</item>
     <item name="wifi.active">0</item>
     <item name="wifi.scan">0</item>
     <item name="audio">34</item>
-    <item name="video">172</item>
+    <item name="video">178</item>
     <item name="camera.flashlight">85.5</item>
-    <item name="camera.avg">650</item>
-    <item name="gps.on">60.9</item>
+    <item name="camera.avg">777</item>
+    <item name="gps.on">61.2</item>
     <item name="radio.active">162</item>
     <item name="radio.scanning">75</item>
     <array name="radio.on">
@@ -122,7 +122,7 @@
     </array>
     <item name="cpu.suspend">5.14</item>
     <item name="cpu.idle">12.8</item>
-    <item name="battery.capacity">3000</item>
+    <item name="battery.capacity">3500</item>
     <item name="bluetooth.controller.idle">0</item>
     <item name="bluetooth.controller.rx">10</item>
     <item name="bluetooth.controller.tx">10</item>

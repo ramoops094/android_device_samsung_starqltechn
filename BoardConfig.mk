@@ -7,7 +7,7 @@
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
-DEVICE_PATH := device/samsung/starqltechn
+DEVICE_PATH := device/samsung/star2qltechn
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
@@ -98,7 +98,7 @@ TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := starqltechn
+TARGET_OTA_ASSERT_DEVICE := star2qltechn
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
@@ -153,4 +153,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
 WIFI_DRIVER_FW_PATH_PARAM        := "/sys/module/dhd/parameters/firmware_path"
 
-include vendor/samsung/starqltechn/BoardConfigVendor.mk
+include vendor/samsung/star2qltechn/BoardConfigVendor.mk
