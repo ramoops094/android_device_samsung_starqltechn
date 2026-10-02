@@ -197,4 +197,14 @@ on property:sys.boot_completed=1
     chown system audio /sys/class/dsm/max98512/spk_amp_reg_wrong_cnt
     chown system audio /sys/class/dsm/max98512/spk_amp_reg_diff_dump
 
+# Boot hang logger, pickup from cache in recovery
+on post-fs
+    exec - root root -- /system/bin/sh -c "echo post-fs > /cache/stage_postfs; dmesg > /cache/dmesg_postfs.log"
+
+on post-fs-data
+    exec - root root -- /system/bin/sh -c "echo post-fs-data > /cache/stage_postfsdata; dmesg > /cache/dmesg_postfsdata.log; getprop > /cache/getprop.log"
+
+on boot
+    exec - root root -- /system/bin/sh -c "echo boot > /cache/stage_boot; dmesg > /cache/dmesg_boot.log; mount > /cache/mount.log; getprop > /cache/getprop_boot.log"
+
     
