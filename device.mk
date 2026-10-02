@@ -357,6 +357,10 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.usb.sh
 
+# First-stage fstab needs to be at ramdisk root
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
+
 PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.qcom.ramdisk \
