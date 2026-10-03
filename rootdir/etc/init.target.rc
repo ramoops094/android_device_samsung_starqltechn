@@ -130,6 +130,10 @@ on post-fs-data
     mkdir /data/vendor/nnhal 0700 system system
     mkdir /data/vendor/camera 0770 cameraserver cameraserver
 
+# WiFi power save off, fw in d3el refuses scans
+    mkdir /data/vendor/conn 0771 system system
+    write /data/vendor/conn/.psm.info 0
+
 # For cpusets initialize for Silver Only first and then Silver + Gold
 # Silver Only configuration cannot work with 0-7
 on early-boot
