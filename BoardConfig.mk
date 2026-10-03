@@ -131,10 +131,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
-# Shim legacy blobs against current interfaces
-TARGET_LD_SHIM_LIBS += \
-    /vendor/lib/android.hardware.camera.provider@2.4-legacy.so|libshim_cameradevice
-
 # Security patch level
 VENDOR_SECURITY_PATCH := 2022-05-01
 
