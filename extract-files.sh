@@ -81,6 +81,19 @@ function blob_fixup() {
             "${PATCHELF}" --replace-needed "libcutils.so" "libcutils-v29.so" "${2}"
             sed -i 's/ril\.dds\.call\.slotid/vendor.calls.slotid/g' "${2}"
             ;;
+        vendor/lib/libsec-ril.so|vendor/lib/libsec-ril-dsds.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "libcutils.so" "libcutils-v29.so" "${2}"
+            sed -i 's/ril\.dds\.call\.slotid/vendor.calls.slotid/g' "${2}"
+            ;;
+        proprietary/vendor/lib64/hw/gatekeeper.mdfpp.so|vendor/lib64/hw/gatekeeper.mdfpp.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed libcrypto.so libcrypto-v29.so "${2}"
+            ;;
+        vendor/lib/android.hardware.camera.provider@2.4-legacy.so)
+            [ "$2" = "" ] && return 0
+            grep -q "libshim_cameradevice.so" "${2}" || "${PATCHELF}" --add-needed "libshim_cameradevice.so" "${2}"
+            ;;
         vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so|vendor/lib64/libkeymaster3device.so|vendor/lib64/libskeymaster3device.so)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed libcrypto.so libcrypto-v29.so "${2}"
