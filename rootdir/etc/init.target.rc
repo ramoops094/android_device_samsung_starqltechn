@@ -128,6 +128,7 @@ on post-fs-data
     mkdir /tombstones/dsps 0771 system system
     #mkdir /data/vendor/hbtp 0750 system system
     mkdir /data/vendor/nnhal 0700 system system
+    mkdir /data/vendor/camera 0770 cameraserver cameraserver
 
 # For cpusets initialize for Silver Only first and then Silver + Gold
 # Silver Only configuration cannot work with 0-7
