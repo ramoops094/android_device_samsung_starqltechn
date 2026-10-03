@@ -89,7 +89,8 @@ PRODUCT_PACKAGES += \
     camera.device@3.2-impl:32 \
     camera.device@3.3-impl:32 \
     camera.device@3.4-impl:32 \
-    camera.device@3.5-impl:32
+    camera.device@3.5-impl:32 \
+    libshim_cameradevice
 
 # Configstore
 PRODUCT_PACKAGES += \
