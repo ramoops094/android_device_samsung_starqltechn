@@ -5,7 +5,8 @@
 //
 
 cc_library_shared {
-    name: "libnetutils",
+    name: "libshim_netutils",
+    stem: "libnetutils",
     srcs: ["libnetutils.cpp"],
     vendor: true,
 }
