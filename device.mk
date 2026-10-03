@@ -84,7 +84,12 @@ TARGET_BOOTANIMATION_HALF_RES := true
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.5-service:32
+    android.hardware.camera.provider@2.5-service:32 \
+    camera.device@1.0-impl:32 \
+    camera.device@3.2-impl:32 \
+    camera.device@3.3-impl:32 \
+    camera.device@3.4-impl:32 \
+    camera.device@3.5-impl:32
 
 # Configstore
 PRODUCT_PACKAGES += \
