@@ -1,0 +1,6 @@
+type argosd, domain;
+type argosd_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(argosd)
+
+allow argosd self:capability sys_nice;

@@ -1,0 +1,1 @@
+allow init self:netlink_kobject_uevent_socket { getattr read };
