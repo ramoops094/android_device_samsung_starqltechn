@@ -31,7 +31,6 @@ vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 # Atrace
 vendor/bin/hw/android.hardware.atrace@1.0-service
 vendor/etc/init/android.hardware.atrace@1.0-service.rc
--vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml
 
 # Audio
 vendor/bin/audioflacapp
@@ -137,7 +136,6 @@ vendor/lib64/soundfx/libvolumelistener.so
 vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 
 # Bluetooth
--vendor/lib64/libbt-vendor.so
 
 # CDSP
 vendor/bin/cdsprpcd
@@ -220,7 +218,6 @@ vendor/lib64/vendor.qti.hardware.cvp@1.0-halimpl.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 
 # Camera
-lib/libchromaflash.so
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib/android.hardware.camera.provider@2.5-legacy.so
 vendor/lib/camera/com.qti.sensor.imx318.so
@@ -536,15 +533,12 @@ etc/permissions/izat.xt.srv.xml
 etc/permissions/privapp-permissions-com.qualcomm.location.xml
 -framework/com.qti.location.sdk.jar
 -framework/izat.xt.srv.jar
-lib64/liblocationservice_jni.so
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/xtra-daemon
 vendor/etc/cacert_location.pem
 vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc
--vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml
--vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml
 vendor/etc/xtra_root_cert.pem
 vendor/lib/hw/android.hardware.gnss@2.0-impl-qti.so
 vendor/lib/hw/vendor.qti.gnss@3.0-impl.so
@@ -688,8 +682,6 @@ vendor/etc/init/android.hardware.health@2.0-service.samsung.rc
 vendor/lib64/vendor.samsung.hardware.health@1.0.so
 
 # HotwordEnrollment
--system/priv-app/HotwordEnrollmentOKGoogleExWCD9340/HotwordEnrollmentOKGoogleExWCD9340.apk
--system/priv-app/HotwordEnrollmentXGoogleExWCD9340/HotwordEnrollmentXGoogleExWCD9340.apk
 
 # IPA-Firmware
 vendor/firmware/ipa_fws.b00
@@ -745,18 +737,6 @@ vendor/lib64/libgcs.so
 vendor/lib64/liblistensoundmodel2.so
 
 # Media
-lib/libFileMux.so
-lib/libOmxMux.so
-lib/libmmosal.so
-lib/libmmparser_lite.so
-lib/libmmrtpdecoder.so
-lib/libmmrtpencoder.so
-lib64/libFileMux.so
-lib64/libOmxMux.so
-lib64/libmmosal.so
-lib64/libmmparser_lite.so
-lib64/libmmrtpdecoder.so
-lib64/libmmrtpencoder.so
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libFlacSwDec.so
@@ -870,8 +850,6 @@ vendor/lib/vendor.qti.power.pasrmanager@1.0.so
 vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
 
 # Perf
-lib/libqti-perfd-client_system.so
-lib64/libqti-perfd-client_system.so
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
 vendor/etc/perf/commonresourceconfigs.xml
@@ -1025,8 +1003,6 @@ vendor/lib64/vendor.samsung.hardware.radio@2.1.so
 
 # Radio-IMS
 -app/ImsSettings/ImsSettings.apk
-lib/libdiag_system.so
-lib64/libdiag_system.so
 product/lib/vendor.qti.imsrtpservice@2.0.so
 product/lib/vendor.qti.imsrtpservice@2.1.so
 product/lib64/vendor.qti.imsrtpservice@2.0.so
@@ -1152,7 +1128,6 @@ vendor/lib/hw/thermal.sdm845.so
 vendor/lib64/hw/thermal.sdm845.so
 
 # Time
--vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/lib/libtime_genoff.so
 vendor/lib64/libtime_genoff.so
@@ -1177,7 +1152,6 @@ vendor/lib/vendor.qti.voiceprint@1.0.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # WFD
-lib/libwfdaac.so
 vendor/lib/libwfdaac_vendor.so
 
 # WiFi
