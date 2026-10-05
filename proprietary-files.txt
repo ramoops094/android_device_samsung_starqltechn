@@ -1346,7 +1346,6 @@ vendor/lib/libvkmanager_vendor.so
 vendor/lib/libvndfwk_detect_jni.qti.so
 vendor/lib/libvndsecril-client.so
 vendor/lib/libvorbisidec.so
-vendor/lib/libvpx.so
 vendor/lib/soundfx/libgearvr.so
 vendor/lib/soundfx/libmysound.so
 vendor/lib/soundfx/libmyspace.so
