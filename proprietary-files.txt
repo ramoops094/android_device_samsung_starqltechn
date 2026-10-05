@@ -148,18 +148,6 @@ vendor/lib64/libsysmon_cdsp_skel.so
 
 # CNE
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml
--product/framework/com.quicinc.cne.api-V1.1-java.jar
--product/framework/com.quicinc.cne.constants-V1.0-java.jar
--product/framework/com.quicinc.cne.constants-V2.0-java.jar
--product/framework/com.quicinc.cne.constants-V2.1-java.jar
--product/framework/vendor.qti.data.factory-V1.0-java.jar
--product/framework/vendor.qti.data.factory-V2.0-java.jar
--product/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar
--product/framework/vendor.qti.hardware.data.cne.internal.constants-V1.0-java.jar
--product/framework/vendor.qti.hardware.data.connection-V1.1-java.jar
--product/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar
--product/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar
--product/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar
 product/lib/com.quicinc.cne.api@1.0.so
 product/lib/com.quicinc.cne.api@1.1.so
 product/lib/com.quicinc.cne.constants@1.0.so
@@ -331,9 +319,6 @@ vendor/lib/libmmcamera_faceproc2.so
 vendor/bin/hvdcp_opti
 
 # DPM
--framework/tcmclient.jar
--product/framework/com.qti.dpmframework.jar
--product/framework/dpmapi.jar
 
 # DRM
 vendor/bin/qseecomd
@@ -531,8 +516,6 @@ etc/permissions/com.qti.location.sdk.xml
 etc/permissions/com.qualcomm.location.xml
 etc/permissions/izat.xt.srv.xml
 etc/permissions/privapp-permissions-com.qualcomm.location.xml
--framework/com.qti.location.sdk.jar
--framework/izat.xt.srv.jar
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
@@ -708,7 +691,6 @@ vendor/lib64/libskeymaster3device.so
 vendor/lib64/libspcom.so
 
 # Latency
--product/framework/vendor.qti.latency-V2.0-java.jar
 product/lib/vendor.qti.latency@2.0.so
 product/lib64/vendor.qti.latency@2.0.so
 vendor/lib/vendor.qti.latency@2.0.so
@@ -954,7 +936,6 @@ vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
 # Radio
--product/framework/embmslibrary.jar
 vendor/bin/ATFWD-daemon
 vendor/bin/netmgrd
 vendor/bin/port-bridge
@@ -1002,7 +983,6 @@ vendor/lib64/vendor.samsung.hardware.radio@2.0.so
 vendor/lib64/vendor.samsung.hardware.radio@2.1.so
 
 # Radio-IMS
--app/ImsSettings/ImsSettings.apk
 product/lib/vendor.qti.imsrtpservice@2.0.so
 product/lib/vendor.qti.imsrtpservice@2.1.so
 product/lib64/vendor.qti.imsrtpservice@2.0.so
