@@ -1384,7 +1384,6 @@ vendor/lib/libstagefright_soft_rawdec.so
 vendor/lib/libstagefright_soft_vorbisdec.so
 vendor/lib/libstagefright_soft_vpxdec.so
 vendor/lib/libstagefright_soft_vpxenc.so
-vendor/lib/libstagefright_softomx_plugin.so
 vendor/lib/libstr_capture_core.so
 vendor/lib/libstr_capture_interface.so
 vendor/lib/libstr_preview_core.so
