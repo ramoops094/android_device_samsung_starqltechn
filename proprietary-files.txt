@@ -154,9 +154,6 @@ product/lib/com.quicinc.cne.constants@1.0.so
 product/lib/com.quicinc.cne.constants@2.0.so
 product/lib/com.quicinc.cne.constants@2.1.so
 product/lib/vendor.qti.data.factory@1.0.so
-product/lib/vendor.qti.hardware.data.connection@1.0.so
-product/lib/vendor.qti.hardware.data.connection@1.1.so
-product/lib/vendor.qti.hardware.data.dynamicdds@1.0.so
 product/lib/vendor.qti.hardware.data.iwlan@1.0.so
 product/lib64/com.quicinc.cne.api@1.0.so
 product/lib64/com.quicinc.cne.api@1.1.so
@@ -164,9 +161,6 @@ product/lib64/com.quicinc.cne.constants@1.0.so
 product/lib64/com.quicinc.cne.constants@2.0.so
 product/lib64/com.quicinc.cne.constants@2.1.so
 product/lib64/vendor.qti.data.factory@1.0.so
-product/lib64/vendor.qti.hardware.data.connection@1.0.so
-product/lib64/vendor.qti.hardware.data.connection@1.1.so
-product/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
 product/lib64/vendor.qti.hardware.data.iwlan@1.0.so
 vendor/lib/libxml.so
 vendor/lib/vendor.qti.data.factory@2.0.so
@@ -691,8 +685,6 @@ vendor/lib64/libskeymaster3device.so
 vendor/lib64/libspcom.so
 
 # Latency
-product/lib/vendor.qti.latency@2.0.so
-product/lib64/vendor.qti.latency@2.0.so
 vendor/lib/vendor.qti.latency@2.0.so
 vendor/lib64/vendor.qti.latency@2.0.so
 
@@ -983,10 +975,6 @@ vendor/lib64/vendor.samsung.hardware.radio@2.0.so
 vendor/lib64/vendor.samsung.hardware.radio@2.1.so
 
 # Radio-IMS
-product/lib/vendor.qti.imsrtpservice@2.0.so
-product/lib/vendor.qti.imsrtpservice@2.1.so
-product/lib64/vendor.qti.imsrtpservice@2.0.so
-product/lib64/vendor.qti.imsrtpservice@2.1.so
 vendor/lib/com.qualcomm.qti.imscmservice@1.0.so
 vendor/lib/com.qualcomm.qti.imscmservice@2.0.so
 vendor/lib/com.qualcomm.qti.imscmservice@2.1.so
