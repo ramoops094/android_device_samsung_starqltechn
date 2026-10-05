@@ -221,7 +221,6 @@ vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 
 # Camera
 lib/libchromaflash.so
-lib64/libseemore.so
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib/android.hardware.camera.provider@2.5-legacy.so
 vendor/lib/camera/com.qti.sensor.imx318.so
@@ -538,7 +537,6 @@ etc/permissions/privapp-permissions-com.qualcomm.location.xml
 -framework/com.qti.location.sdk.jar
 -framework/izat.xt.srv.jar
 lib64/liblocationservice_jni.so
-lib64/libxt_native.so
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
@@ -873,11 +871,7 @@ vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
 
 # Perf
 lib/libqti-perfd-client_system.so
-lib/libqti-util_system.so
-lib/libqti_performance.so
 lib64/libqti-perfd-client_system.so
-lib64/libqti-util_system.so
-lib64/libqti_performance.so
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
 vendor/etc/perf/commonresourceconfigs.xml
@@ -1059,14 +1053,6 @@ vendor/lib64/vendor.qti.imsrtpservice@2.0.so
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so
 
 # SCVE
-lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so
-lib/vendor.qti.hardware.scve.objecttracker@1.0.so
-lib/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so
-lib/vendor.qti.hardware.scve.panorama@1.0.so
-lib64/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so
-lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
-lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so
-lib64/vendor.qti.hardware.scve.panorama@1.0.so
 vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so
 vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
