@@ -33,11 +33,8 @@ blob_fixups: blob_fixups_user_type = {
         .binary_regex_replace(b'ril.dds.call.slotid', b'vendor.calls.slotid\x00\x00'),
     'vendor/lib64/hw/gatekeeper.mdfpp.so': blob_fixup()
         .replace_needed('libcrypto.so', 'libcrypto-v29.so'),
-    'vendor/lib/android.hardware.camera.provider@2.4-legacy.so': blob_fixup()
-        .add_needed('libshim_cameradevice.so'),
     (
-        'vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so',
-        'vendor/lib64/libkeymaster3device.so',
+        'vendor/lib/libskeymaster3device.so',
         'vendor/lib64/libskeymaster3device.so',
     ): blob_fixup()
         .replace_needed('libcrypto.so', 'libcrypto-v29.so')
