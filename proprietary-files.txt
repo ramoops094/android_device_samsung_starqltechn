@@ -1261,7 +1261,6 @@ vendor/lib/libpredeflicker_native.so
 vendor/lib/libprofileparamstorage.so
 vendor/lib/libqcbor.so
 vendor/lib/libqdma.so
-vendor/lib/libqti_vndfwk_detect.so
 vendor/lib/librecordalive.so
 vendor/lib/libsaiv_BeautySolutionVideo.so
 vendor/lib/libsaped.so
@@ -1343,7 +1342,6 @@ vendor/lib/libuniapi.so
 vendor/lib/libuniplugin.so
 vendor/lib/libvideobeauty_interface.so
 vendor/lib/libvkmanager_vendor.so
-vendor/lib/libvndfwk_detect_jni.qti.so
 vendor/lib/libvndsecril-client.so
 vendor/lib/libvorbisidec.so
 vendor/lib/soundfx/libgearvr.so
@@ -1397,7 +1395,6 @@ vendor/lib64/libpadm.so
 vendor/lib64/libpassese.so
 vendor/lib64/libprofileparamstorage.so
 vendor/lib64/libqcbor.so
-vendor/lib64/libqti_vndfwk_detect.so
 vendor/lib64/libreffeature.so
 vendor/lib64/libsaiv_BeautySolutionVideo.so
 vendor/lib64/libsaped.so
@@ -1455,7 +1452,6 @@ vendor/lib64/libuniplugin.so
 vendor/lib64/libvideobeauty_interface.so
 vendor/lib64/libvkmanager_vendor.so
 vendor/lib64/libvkservice.so
-vendor/lib64/libvndfwk_detect_jni.qti.so
 vendor/lib64/libvndsecril-client.so
 vendor/lib64/soundfx/libgearvr.so
 vendor/lib64/soundfx/libmysound.so
