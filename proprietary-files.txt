@@ -1162,7 +1162,6 @@ vendor/lib/libfocuspeaking.so
 vendor/lib/libfocuspeaking_interface.so
 vendor/lib/libgtmdrv.so
 vendor/lib/libhdmipassthru.so
-vendor/lib/libhfp.so
 vendor/lib/libhifills.so
 vendor/lib/libhifills_interface.so
 vendor/lib/libhifistill_tuning.so
