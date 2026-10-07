@@ -22,7 +22,6 @@ from extract_utils.main import (
 # so vendor prebuilt deps resolve instead of colliding.
 namespace_imports = [
     'device/samsung/starqltechn',
-    'hardware/lineage/compat',
     'hardware/qcom-caf/sdm845',
     'hardware/samsung',
     'vendor/qcom/opensource/dataservices',
