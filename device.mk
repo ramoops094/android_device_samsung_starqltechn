@@ -213,11 +213,11 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service \
     android.hardware.keymaster@3.0-impl
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/keymaster/libcrypto-v29.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcrypto-v29.so \
-    $(LOCAL_PATH)/keymaster/libkeymaster_portable-v29.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_portable-v29.so \
-    $(LOCAL_PATH)/keymaster/libpuresoftkeymasterdevice-v29.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpuresoftkeymasterdevice-v29.so \
-    $(LOCAL_PATH)/keymaster/libsoftkeymasterdevice-v29.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymasterdevice-v29.so
+PRODUCT_PACKAGES += \
+    libcrypto-v29 \
+    libkeymaster_portable-v29 \
+    libpuresoftkeymasterdevice-v29 \
+    libsoftkeymasterdevice-v29
 
 # Light
 PRODUCT_PACKAGES += \
