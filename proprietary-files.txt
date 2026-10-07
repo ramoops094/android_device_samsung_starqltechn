@@ -544,8 +544,6 @@ vendor/lib64/libsdm-disp-vndapis.so
 vendor/lib64/libtinyxml2_1.so
 
 # Health
-vendor/bin/hw/android.hardware.health@2.0-service.samsung
-vendor/etc/init/android.hardware.health@2.0-service.samsung.rc
 vendor/lib64/vendor.samsung.hardware.health@1.0.so
 
 # HotwordEnrollment

@@ -21,6 +21,7 @@ from extract_utils.main import (
 # Same-SoC reference (lge sdm845, lineage-23.2) imports the CAF tree
 # so vendor prebuilt deps resolve instead of colliding.
 namespace_imports = [
+    'device/samsung/starqltechn',
     'hardware/qcom-caf/sdm845',
     'hardware/samsung',
     'vendor/qcom/opensource/display',
@@ -57,8 +58,6 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libkeymaster_portable.so', 'libkeymaster_portable-v29.so')
         .replace_needed('libpuresoftkeymasterdevice.so', 'libpuresoftkeymasterdevice-v29.so')
         .replace_needed('libsoftkeymasterdevice.so', 'libsoftkeymasterdevice-v29.so'),
-    'vendor/bin/pm-service': blob_fixup()
-        .add_needed('libutils-v33.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
