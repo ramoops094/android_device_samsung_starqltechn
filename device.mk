@@ -353,7 +353,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
     libjson \
-    libshim_netutils \
     librmnetctl \
     secril_config_svc
 
