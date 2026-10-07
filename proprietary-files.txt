@@ -1228,7 +1228,6 @@ vendor/lib/libsomxwmv7d.so
 vendor/lib/libsomxwmv8d.so
 vendor/lib/libspictrl.so
 vendor/lib/libspiris.so
-vendor/lib/libspkrprot.so
 vendor/lib/libstagefright_bufferqueue_helper_vendor.so
 vendor/lib/libstagefright_omx_vendor.so
 vendor/lib/libstagefright_soft_aacdec.so
