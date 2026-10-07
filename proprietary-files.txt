@@ -95,7 +95,6 @@ vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.sec_primary.default.so
 vendor/lib/hw/audio.usb.default.so
 vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so
-vendor/lib/soundfx/libqcompostprocbundle.so
 vendor/lib/soundfx/libqcomvisualizer.so
 vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib/soundfx/libvolumelistener.so
@@ -107,7 +106,6 @@ vendor/lib64/hw/audio.r_submix.default.so
 vendor/lib64/hw/audio.sec_primary.default.so
 vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so
-vendor/lib64/soundfx/libqcompostprocbundle.so
 vendor/lib64/soundfx/libqcomvisualizer.so
 vendor/lib64/soundfx/libqcomvoiceprocessing.so
 vendor/lib64/soundfx/libvolumelistener.so
@@ -365,7 +363,6 @@ vendor/lib/libdrmutils.so
 vendor/lib/libgpu_tonemapper.so
 vendor/lib/libgralloccore.so
 vendor/lib/libgrallocutils.so
-vendor/lib/libqdutils.so
 vendor/lib/libqservice.so
 vendor/lib/libsdedrm.so
 vendor/lib/libsdmcore.so
@@ -379,7 +376,6 @@ vendor/lib64/libdrmutils.so
 vendor/lib64/libgpu_tonemapper.so
 vendor/lib64/libgralloccore.so
 vendor/lib64/libgrallocutils.so
-vendor/lib64/libqdutils.so
 vendor/lib64/libqservice.so
 vendor/lib64/libsdedrm.so
 vendor/lib64/libsdmcore.so
@@ -705,7 +701,6 @@ vendor/lib/libOmxG711Enc.so
 vendor/lib/libOmxQcelp13Enc.so
 vendor/lib/libOmxSwVdec.so
 vendor/lib/libOmxSwVencMpeg4.so
-vendor/lib/libc2dcolorconvert.so
 vendor/lib/libmm-omxcore.so
 vendor/lib64/libOmxAacEnc.so
 vendor/lib64/libOmxAmrEnc.so
@@ -714,7 +709,6 @@ vendor/lib64/libOmxG711Enc.so
 vendor/lib64/libOmxQcelp13Enc.so
 vendor/lib64/libOmxSwVdec.so
 vendor/lib64/libOmxSwVencMpeg4.so
-vendor/lib64/libc2dcolorconvert.so
 vendor/lib64/libmm-omxcore.so
 
 # Media XMLs
@@ -1171,7 +1165,6 @@ vendor/lib/libOmxBlackBar.so
 vendor/lib/libTigerCaV4.so
 vendor/lib/libTigerLogger.so
 vendor/lib/lib_SoundBooster_ver900.so
-vendor/lib/liba2dpoffload.so
 vendor/lib/libapex_cmn.so
 vendor/lib/libapex_utils.so
 vendor/lib/libarac.so
