@@ -1249,7 +1249,6 @@ vendor/lib/libmfhdr_interface.so
 vendor/lib/libmmparser_lite_proprietary.so
 vendor/lib/libmmrtpdecoder_proprietary.so
 vendor/lib/libmmrtpencoder_proprietary.so
-vendor/lib/libopus.so
 vendor/lib/libpa.so
 vendor/lib/libpadm.so
 vendor/lib/libpassese.so
