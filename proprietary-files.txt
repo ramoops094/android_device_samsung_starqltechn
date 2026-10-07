@@ -184,10 +184,6 @@ vendor/lib/camera/components/com.samsung.node.uniplugin_capture.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_preview.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_vdis.so
-vendor/lib/camera/components/com.ss.stats.aec.so
-vendor/lib/camera/components/com.ss.stats.af.so
-vendor/lib/camera/components/com.ss.stats.awb.so
-vendor/lib/camera/components/com.ss.stats.pdlib.so
 vendor/lib/camera/eebindriver.bin
 vendor/lib/camera/fdconfigpreview.bin
 vendor/lib/camera/fdconfigvideo.bin
