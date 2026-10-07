@@ -95,7 +95,6 @@ vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.sec_primary.default.so
 vendor/lib/hw/audio.usb.default.so
 vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so
-vendor/lib/soundfx/libvolumelistener.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib/vendor.samsung.hardware.audio@1.0.so
 vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so
@@ -104,7 +103,6 @@ vendor/lib64/hw/audio.r_submix.default.so
 vendor/lib64/hw/audio.sec_primary.default.so
 vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so
-vendor/lib64/soundfx/libvolumelistener.so
 vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 
 # Bluetooth
@@ -355,14 +353,12 @@ vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/hwcomposer.sdm845.so
 vendor/lib/hw/memtrack.sdm845.so
 vendor/lib/libdisplayqos.so
-vendor/lib/libgrallocutils.so
 vendor/lib/libsdedrm.so
 vendor/lib/libsdmextension.so
 vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/hwcomposer.sdm845.so
 vendor/lib64/hw/memtrack.sdm845.so
 vendor/lib64/libdisplayqos.so
-vendor/lib64/libgrallocutils.so
 vendor/lib64/libsdedrm.so
 vendor/lib64/libsdmextension.so
 
@@ -1160,7 +1156,6 @@ vendor/lib/libcryptfshwhidl.so
 vendor/lib/libdeccfg.so
 vendor/lib/libdiagjni.so
 vendor/lib/libdisplayconfig.so
-vendor/lib/libexthwplugin.so
 vendor/lib/libfastcrc.so
 vendor/lib/libfloatingfeature.so
 vendor/lib/libfocuspeaking.so
