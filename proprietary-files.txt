@@ -366,7 +366,6 @@ vendor/lib/hw/hwcomposer.sdm845.so
 vendor/lib/hw/memtrack.sdm845.so
 vendor/lib/libdisplaydebug.so
 vendor/lib/libdisplayqos.so
-vendor/lib/libdrm.so
 vendor/lib/libdrmutils.so
 vendor/lib/libgpu_tonemapper.so
 vendor/lib/libgralloccore.so
@@ -395,7 +394,6 @@ vendor/lib64/hw/hwcomposer.sdm845.so
 vendor/lib64/hw/memtrack.sdm845.so
 vendor/lib64/libdisplaydebug.so
 vendor/lib64/libdisplayqos.so
-vendor/lib64/libdrm.so
 vendor/lib64/libdrmutils.so
 vendor/lib64/libgpu_tonemapper.so
 vendor/lib64/libgralloccore.so
