@@ -24,6 +24,7 @@ namespace_imports = [
     'device/samsung/starqltechn',
     'hardware/qcom-caf/sdm845',
     'hardware/samsung',
+    'vendor/qcom/opensource/dataservices',
     'vendor/qcom/opensource/display',
 ]
 
