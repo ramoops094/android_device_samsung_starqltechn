@@ -48,8 +48,7 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .replace_needed('libcutils.so', 'libcutils-v29.so')
         .binary_regex_replace(b'ril.dds.call.slotid', b'vendor.calls.slotid\x00\x00'),
-    'vendor/lib64/hw/gatekeeper.mdfpp.so': blob_fixup()
-        .replace_needed('libcrypto.so', 'libcrypto-v29.so'),
+
     (
         'vendor/lib/libskeymaster3device.so',
         'vendor/lib64/libskeymaster3device.so',

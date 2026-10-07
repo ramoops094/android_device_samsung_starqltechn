@@ -963,11 +963,7 @@ vendor/lib64/libtime_genoff.so
 vendor/lib/libstreamparser.so
 
 # VR
-vendor/bin/hw/android.hardware.vr@1.0-service
-vendor/etc/init/android.hardware.vr@1.0-service.rc
-vendor/lib/hw/android.hardware.vr@1.0-impl.so
 vendor/lib/hw/vr.sdm845.so
-vendor/lib64/hw/android.hardware.vr@1.0-impl.so
 vendor/lib64/hw/vr.sdm845.so
 
 # Vibrator
@@ -999,7 +995,6 @@ vendor/app/mcRegistry/07010000000000000000000000000000.tlbin
 vendor/app/mcRegistry/ffffffffd00000000000000000000014.tlbin
 vendor/bin/PktRspTest
 vendor/bin/StoreKeybox
-vendor/bin/adpl
 vendor/bin/argosd
 vendor/bin/cplay
 vendor/bin/diag_callback_sample
@@ -1044,7 +1039,6 @@ vendor/etc/SoundBoosterParam.txt
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/floating_feature.xml
 vendor/etc/gpfspath_oem_config.xml
-vendor/etc/init/dataadpl.rc
 vendor/etc/init/init-qcril-data.rc
 vendor/etc/init/init.time_daemon.rc
 vendor/etc/init/init.vendor.onebinary.rc
@@ -1340,7 +1334,6 @@ vendor/lib64/libstr_preview_core.so
 vendor/lib64/libsxqk.so
 vendor/lib64/libsynaFpSensorTestNwd.so
 vendor/lib64/libtzcom.so
-vendor/lib64/libucsengine.so
 vendor/lib64/libuniapi.so
 vendor/lib64/libuniplugin.so
 vendor/lib64/libvideobeauty_interface.so
