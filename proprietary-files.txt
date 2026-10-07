@@ -1338,7 +1338,6 @@ vendor/lib/libuniplugin.so
 vendor/lib/libvideobeauty_interface.so
 vendor/lib/libvkmanager_vendor.so
 vendor/lib/libvndsecril-client.so
-vendor/lib/libvorbisidec.so
 vendor/lib/soundfx/libgearvr.so
 vendor/lib/soundfx/libmysound.so
 vendor/lib/soundfx/libmyspace.so
