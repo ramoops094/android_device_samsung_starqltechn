@@ -95,7 +95,6 @@ vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.sec_primary.default.so
 vendor/lib/hw/audio.usb.default.so
 vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so
-vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib/soundfx/libvolumelistener.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib/vendor.samsung.hardware.audio@1.0.so
@@ -105,7 +104,6 @@ vendor/lib64/hw/audio.r_submix.default.so
 vendor/lib64/hw/audio.sec_primary.default.so
 vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so
-vendor/lib64/soundfx/libqcomvoiceprocessing.so
 vendor/lib64/soundfx/libvolumelistener.so
 vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 
@@ -357,22 +355,18 @@ vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/hwcomposer.sdm845.so
 vendor/lib/hw/memtrack.sdm845.so
 vendor/lib/libdisplayqos.so
-vendor/lib/libgpu_tonemapper.so
 vendor/lib/libgralloccore.so
 vendor/lib/libgrallocutils.so
 vendor/lib/libsdedrm.so
-vendor/lib/libsdmcore.so
 vendor/lib/libsdmextension.so
 vendor/lib/libsdmutils.so
 vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/hwcomposer.sdm845.so
 vendor/lib64/hw/memtrack.sdm845.so
 vendor/lib64/libdisplayqos.so
-vendor/lib64/libgpu_tonemapper.so
 vendor/lib64/libgralloccore.so
 vendor/lib64/libgrallocutils.so
 vendor/lib64/libsdedrm.so
-vendor/lib64/libsdmcore.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libsdmutils.so
 
@@ -1167,7 +1161,6 @@ vendor/lib/libbauthtzcommon.so
 vendor/lib/libblurdetection.so
 vendor/lib/libblurdetection_interface.so
 vendor/lib/libchiss3alogdebug.so
-vendor/lib/libcirrusspkrprot.so
 vendor/lib/libcomprcapture.so
 vendor/lib/libcryptfshwcommon.so
 vendor/lib/libcryptfshwhidl.so
