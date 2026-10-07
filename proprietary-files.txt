@@ -91,7 +91,6 @@ vendor/etc/audconf/OPEN/workspaceFile.qwsp
 vendor/etc/init/android.hardware.audio@2.0-service.rc
 vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so
 vendor/lib/hw/audio.primary.default.so
-vendor/lib/hw/audio.primary.sdm845.so
 vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.sec_primary.default.so
 vendor/lib/hw/audio.usb.default.so
@@ -355,20 +354,17 @@ vendor/lib/libwvhidl.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
 # Display-Hardware
-vendor/bin/hw/vendor.qti.hardware.display.allocator@1.0-service
 vendor/etc/init/android.hardware.graphics.composer@2.3-service.rc
 vendor/etc/init/android.hardware.memtrack@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.display.allocator@1.0-service.rc
 vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/hwcomposer.sdm845.so
 vendor/lib/hw/memtrack.sdm845.so
-vendor/lib/libdisplaydebug.so
 vendor/lib/libdisplayqos.so
 vendor/lib/libdrmutils.so
 vendor/lib/libgpu_tonemapper.so
 vendor/lib/libgralloccore.so
 vendor/lib/libgrallocutils.so
-vendor/lib/libqdMetaData.so
 vendor/lib/libqdutils.so
 vendor/lib/libqservice.so
 vendor/lib/libsdedrm.so
@@ -378,13 +374,11 @@ vendor/lib/libsdmutils.so
 vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/hwcomposer.sdm845.so
 vendor/lib64/hw/memtrack.sdm845.so
-vendor/lib64/libdisplaydebug.so
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdrmutils.so
 vendor/lib64/libgpu_tonemapper.so
 vendor/lib64/libgralloccore.so
 vendor/lib64/libgrallocutils.so
-vendor/lib64/libqdMetaData.so
 vendor/lib64/libqdutils.so
 vendor/lib64/libqservice.so
 vendor/lib64/libsdedrm.so
@@ -711,10 +705,8 @@ vendor/lib/libOmxG711Enc.so
 vendor/lib/libOmxQcelp13Enc.so
 vendor/lib/libOmxSwVdec.so
 vendor/lib/libOmxSwVencMpeg4.so
-vendor/lib/libOmxVenc.so
 vendor/lib/libc2dcolorconvert.so
 vendor/lib/libmm-omxcore.so
-vendor/lib/libstagefrighthw.so
 vendor/lib64/libOmxAacEnc.so
 vendor/lib64/libOmxAmrEnc.so
 vendor/lib64/libOmxEvrcEnc.so
@@ -722,10 +714,8 @@ vendor/lib64/libOmxG711Enc.so
 vendor/lib64/libOmxQcelp13Enc.so
 vendor/lib64/libOmxSwVdec.so
 vendor/lib64/libOmxSwVencMpeg4.so
-vendor/lib64/libOmxVenc.so
 vendor/lib64/libc2dcolorconvert.so
 vendor/lib64/libmm-omxcore.so
-vendor/lib64/libstagefrighthw.so
 
 # Media XMLs
 vendor/etc/media_codecs.xml
@@ -1089,7 +1079,6 @@ vendor/bin/ppd
 vendor/bin/pvclicense_sample
 vendor/bin/qdcmss
 vendor/bin/qseecom_sample_client
-vendor/bin/secril_config_svc
 vendor/bin/secure_ui_sample_client
 vendor/bin/seemp_healthd
 vendor/bin/snap_utility_32
