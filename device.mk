@@ -419,11 +419,11 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.samsung
 
 # VNDK
-PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-core/libkeymaster_messages.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_messages.so \
-    prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-sp/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcutils-v29.so \
-    prebuilts/vndk/v30/arm64/arch-arm64-armv8-a/shared/vndk-sp/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutils-v30.so \
-    prebuilts/vndk/v33/arm64/arch-arm64-armv8-a/shared/vndk-sp/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutils-v33.so
+# Compat libs from hardware/lineage/compat (v29/v30/v33 prebuilts are
+# gone on 23.2). libutils-v30 has no consumer left, skip it.
+PRODUCT_PACKAGES += \
+    libcutils-v29 \
+    libutils-v33
 
 # Wi-Fi
 PRODUCT_PACKAGES += \

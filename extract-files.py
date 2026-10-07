@@ -22,6 +22,7 @@ from extract_utils.main import (
 # so vendor prebuilt deps resolve instead of colliding.
 namespace_imports = [
     'device/samsung/starqltechn',
+    'hardware/lineage/compat',
     'hardware/qcom-caf/sdm845',
     'hardware/samsung',
     'vendor/qcom/opensource/dataservices',
@@ -51,14 +52,6 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libcutils.so', 'libcutils-v29.so')
         .binary_regex_replace(b'ril.dds.call.slotid', b'vendor.calls.slotid\x00\x00'),
 
-    (
-        'vendor/lib/libskeymaster3device.so',
-        'vendor/lib64/libskeymaster3device.so',
-    ): blob_fixup()
-        .replace_needed('libcrypto.so', 'libcrypto-v29.so')
-        .replace_needed('libkeymaster_portable.so', 'libkeymaster_portable-v29.so')
-        .replace_needed('libpuresoftkeymasterdevice.so', 'libpuresoftkeymasterdevice-v29.so')
-        .replace_needed('libsoftkeymasterdevice.so', 'libsoftkeymasterdevice-v29.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
