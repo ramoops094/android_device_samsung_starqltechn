@@ -421,6 +421,8 @@ PRODUCT_PACKAGES += \
 # VNDK
 # Compat libs from hardware/lineage/compat (v29/v30/v33 prebuilts are
 # gone on 23.2). libutils-v30 has no consumer left, skip it.
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/lineage/compat
 PRODUCT_PACKAGES += \
     libcutils-v29 \
     libutils-v33
