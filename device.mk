@@ -131,6 +131,12 @@ PRODUCT_PACKAGES += \
     vendor.display.config@2.0 \
     vendor.qti.hardware.display.allocator@1.0-service
 
+# Secure display lib shipped as raw copy: it links CAF display libs
+# which are not visible from the vendor Soong namespace
+PRODUCT_COPY_FILES += \
+    vendor/samsung/starqltechn/proprietary/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so \
+    vendor/samsung/starqltechn/proprietary/vendor/lib64/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdedrm.so
+
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 

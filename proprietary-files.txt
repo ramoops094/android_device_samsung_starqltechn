@@ -353,13 +353,11 @@ vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/hwcomposer.sdm845.so
 vendor/lib/hw/memtrack.sdm845.so
 vendor/lib/libdisplayqos.so
-vendor/lib/libsdedrm.so
 vendor/lib/libsdmextension.so
 vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/hwcomposer.sdm845.so
 vendor/lib64/hw/memtrack.sdm845.so
 vendor/lib64/libdisplayqos.so
-vendor/lib64/libsdedrm.so
 vendor/lib64/libsdmextension.so
 
 # Display-calibration
@@ -1170,7 +1168,6 @@ vendor/lib/libhypermotion_core.so
 vendor/lib/libhypermotion_interface.so
 vendor/lib/libllhdr_interface.so
 vendor/lib/liblow_light_hdr.so
-vendor/lib/libmdf.so
 vendor/lib/libmfhdr_interface.so
 vendor/lib/libmmparser_lite_proprietary.so
 vendor/lib/libmmrtpdecoder_proprietary.so
@@ -1303,7 +1300,6 @@ vendor/lib64/libhypermotion_interface.so
 vendor/lib64/libllhdr_interface.so
 vendor/lib64/libloadalgo_stub.so
 vendor/lib64/liblow_light_hdr.so
-vendor/lib64/libmdf.so
 vendor/lib64/libmdmimgload.so
 vendor/lib64/libmfhdr_interface.so
 vendor/lib64/libmmparser_lite_proprietary.so
