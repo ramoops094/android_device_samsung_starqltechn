@@ -1161,7 +1161,6 @@ vendor/lib/libfloatingfeature.so
 vendor/lib/libfocuspeaking.so
 vendor/lib/libfocuspeaking_interface.so
 vendor/lib/libgtmdrv.so
-vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libhfp.so
 vendor/lib/libhifills.so
@@ -1209,7 +1208,6 @@ vendor/lib/libsnap_compute_wrapper.so
 vendor/lib/libsnap_vndk.so
 vendor/lib/libsnaplite_native.so
 vendor/lib/libsnaplite_wrapper.so
-vendor/lib/libsndmonitor.so
 vendor/lib/libsomx263dsw.so
 vendor/lib/libsomx264dsw.so
 vendor/lib/libsomxaacd.so
