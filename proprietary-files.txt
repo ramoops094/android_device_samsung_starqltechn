@@ -360,7 +360,6 @@ vendor/etc/init/android.hardware.graphics.composer@2.3-service.rc
 vendor/etc/init/android.hardware.memtrack@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.display.allocator@1.0-service.rc
 vendor/lib/hw/gralloc.default.so
-vendor/lib/hw/gralloc.sdm845.so
 vendor/lib/hw/hwcomposer.sdm845.so
 vendor/lib/hw/memtrack.sdm845.so
 vendor/lib/libdisplaydebug.so
@@ -377,7 +376,6 @@ vendor/lib/libsdmcore.so
 vendor/lib/libsdmextension.so
 vendor/lib/libsdmutils.so
 vendor/lib64/hw/gralloc.default.so
-vendor/lib64/hw/gralloc.sdm845.so
 vendor/lib64/hw/hwcomposer.sdm845.so
 vendor/lib64/hw/memtrack.sdm845.so
 vendor/lib64/libdisplaydebug.so
@@ -713,7 +711,6 @@ vendor/lib/libOmxG711Enc.so
 vendor/lib/libOmxQcelp13Enc.so
 vendor/lib/libOmxSwVdec.so
 vendor/lib/libOmxSwVencMpeg4.so
-vendor/lib/libOmxVdec.so
 vendor/lib/libOmxVenc.so
 vendor/lib/libc2dcolorconvert.so
 vendor/lib/libmm-omxcore.so
@@ -725,7 +722,6 @@ vendor/lib64/libOmxG711Enc.so
 vendor/lib64/libOmxQcelp13Enc.so
 vendor/lib64/libOmxSwVdec.so
 vendor/lib64/libOmxSwVencMpeg4.so
-vendor/lib64/libOmxVdec.so
 vendor/lib64/libOmxVenc.so
 vendor/lib64/libc2dcolorconvert.so
 vendor/lib64/libmm-omxcore.so
