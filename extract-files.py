@@ -9,10 +9,31 @@ from extract_utils.fixups_blob import (
     blob_fixup,
     blob_fixups_user_type,
 )
+from extract_utils.fixups_lib import (
+    lib_fixups,
+    lib_fixups_user_type,
+)
 from extract_utils.main import (
     ExtractUtils,
     ExtractUtilsModule,
 )
+
+# Same-SoC reference (lge sdm845, lineage-23.2) imports the CAF tree
+# so vendor prebuilt deps resolve instead of colliding.
+namespace_imports = [
+    'hardware/qcom-caf/sdm845',
+    'hardware/samsung',
+    'vendor/qcom/opensource/display',
+]
+
+
+def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
+    return f'{lib}_{partition}' if partition == 'vendor' else None
+
+
+lib_fixups: lib_fixups_user_type = {
+    **lib_fixups,
+}
 
 blob_fixups: blob_fixups_user_type = {
     'product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml': blob_fixup()
@@ -49,6 +70,8 @@ module = ExtractUtilsModule(
     'starqltechn',
     'samsung',
     blob_fixups=blob_fixups,
+    lib_fixups=lib_fixups,
+    namespace_imports=namespace_imports,
 )
 
 if __name__ == '__main__':
