@@ -924,14 +924,12 @@ vendor/etc/sensors/config/sns_rotv.json
 vendor/etc/sensors/sns_reg_config
 
 # Sensors
-vendor/lib/libsensorlistener.so
 vendor/lib/libsensorslog.so
 vendor/lib/libssc.so
 vendor/lib/libssc_default_listener.so
 vendor/lib/sensors.bio.so
 vendor/lib/sensors.grip.so
 vendor/lib/sensors.ssc.so
-vendor/lib64/libsensorlistener.so
 vendor/lib64/libsensorslog.so
 vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so

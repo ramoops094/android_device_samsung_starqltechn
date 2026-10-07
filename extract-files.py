@@ -40,10 +40,6 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('version="2.0"', 'version="1.0"'),
     'vendor/bin/hw/android.hardware.health@2.0-service.samsung': blob_fixup()
         .replace_needed('libutils.so', 'libutils-v30.so'),
-    'vendor/lib/libsensorlistener.so': blob_fixup()
-        .add_needed('libshim_sensorndkbridge.so'),
-    'vendor/lib64/libsensorlistener.so': blob_fixup()
-        .add_needed('libshim_sensorndkbridge.so'),
     (
         'vendor/lib/libsec-ril.so',
         'vendor/lib/libsec-ril-dsds.so',
