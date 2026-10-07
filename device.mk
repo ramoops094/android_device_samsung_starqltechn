@@ -443,3 +443,9 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from starqltechn vendor tree
 $(call inherit-product, vendor/samsung/starqltechn/starqltechn-vendor.mk)
+
+# Our Wi-Fi is bcmdhd with the default AOSP HAL; the qcwcn namespace only
+# provides a duplicate wpa_supplicant.conf prebuilt that collides with the
+# bcmdhd one at kati time. Drop it (product phase runs after board config,
+# so this filter-out wins over BoardConfigQcom.mk).
+PRODUCT_SOONG_NAMESPACES := $(filter-out hardware/qcom-caf/wlan/qcwcn,$(PRODUCT_SOONG_NAMESPACES))
