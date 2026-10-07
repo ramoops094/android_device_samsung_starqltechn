@@ -118,20 +118,6 @@ vendor/lib64/libsysmon_cdsp_skel.so
 
 # CNE
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml
-product/lib/com.quicinc.cne.api@1.0.so
-product/lib/com.quicinc.cne.api@1.1.so
-product/lib/com.quicinc.cne.constants@1.0.so
-product/lib/com.quicinc.cne.constants@2.0.so
-product/lib/com.quicinc.cne.constants@2.1.so
-product/lib/vendor.qti.data.factory@1.0.so
-product/lib/vendor.qti.hardware.data.iwlan@1.0.so
-product/lib64/com.quicinc.cne.api@1.0.so
-product/lib64/com.quicinc.cne.api@1.1.so
-product/lib64/com.quicinc.cne.constants@1.0.so
-product/lib64/com.quicinc.cne.constants@2.0.so
-product/lib64/com.quicinc.cne.constants@2.1.so
-product/lib64/vendor.qti.data.factory@1.0.so
-product/lib64/vendor.qti.hardware.data.iwlan@1.0.so
 vendor/lib/libxml.so
 vendor/lib/vendor.qti.data.factory@2.0.so
 vendor/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so
