@@ -556,7 +556,6 @@ vendor/firmware/ipa_fws.mdt
 # Keymaster
 vendor/etc/init/android.hardware.keymaster@3.0-service.rc
 vendor/lib/libspcom.so
-vendor/lib64/hw/keystore.mdfpp.so
 vendor/lib64/libspcom.so
 
 # Latency
