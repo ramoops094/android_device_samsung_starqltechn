@@ -252,7 +252,7 @@ vendor/etc/camera/imx258tuned.bin
 vendor/firmware/CAMERA_ICP.elf
 
 # Camera-sensors
-vendor/lib/libmmcamera_faceproc.so
+vendor/lib/libmmcamera_faceproc.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera_faceproc2.so
 
 # Charger
@@ -557,8 +557,6 @@ vendor/firmware/ipa_fws.mdt
 vendor/etc/init/android.hardware.keymaster@3.0-service.rc
 vendor/lib/libspcom.so
 vendor/lib64/hw/keystore.mdfpp.so
-vendor/lib64/libkeymaster2_mdfpp.so
-vendor/lib64/libkeymaster_helper_vendor.so
 vendor/lib64/libspcom.so
 
 # Latency
@@ -1125,11 +1123,11 @@ vendor/lib/libfocuspeaking.so
 vendor/lib/libfocuspeaking_interface.so
 vendor/lib/libgtmdrv.so
 vendor/lib/libhdmipassthru.so
-vendor/lib/libhifills.so
+vendor/lib/libhifills.so;DISABLE_CHECKELF
 vendor/lib/libhifills_interface.so
 vendor/lib/libhifistill_tuning.so
 vendor/lib/libhigh_dynamic_range.so
-vendor/lib/libhypermotion_core.so
+vendor/lib/libhypermotion_core.so;DISABLE_CHECKELF
 vendor/lib/libhypermotion_interface.so
 vendor/lib/libllhdr_interface.so
 vendor/lib/liblow_light_hdr.so
@@ -1255,11 +1253,11 @@ vendor/lib64/libflicker.so
 vendor/lib64/libfloatingfeature.so
 vendor/lib64/libfocuspeaking.so
 vendor/lib64/libfocuspeaking_interface.so
-vendor/lib64/libhifills.so
+vendor/lib64/libhifills.so;DISABLE_CHECKELF
 vendor/lib64/libhifills_interface.so
 vendor/lib64/libhifistill_tuning.so
 vendor/lib64/libhigh_dynamic_range.so
-vendor/lib64/libhypermotion_core.so
+vendor/lib64/libhypermotion_core.so;DISABLE_CHECKELF
 vendor/lib64/libhypermotion_interface.so
 vendor/lib64/libllhdr_interface.so
 vendor/lib64/libloadalgo_stub.so
