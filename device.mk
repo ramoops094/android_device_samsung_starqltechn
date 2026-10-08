@@ -212,10 +212,7 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl
 
 PRODUCT_PACKAGES += \
-    libcrypto-v29 \
-    libkeymaster_portable-v29 \
-    libpuresoftkeymasterdevice-v29 \
-    libsoftkeymasterdevice-v29
+    libcrypto-v29
 
 # Light
 PRODUCT_PACKAGES += \
