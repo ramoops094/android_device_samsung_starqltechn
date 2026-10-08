@@ -89,7 +89,7 @@ vendor/etc/audconf/OPEN/workspaceFile.qwsp
 
 # Audio-Hardware
 vendor/etc/init/android.hardware.audio@2.0-service.rc
-vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so
+vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so;DISABLE_CHECKELF
 vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.sec_primary.default.so
@@ -97,7 +97,7 @@ vendor/lib/hw/audio.usb.default.so
 vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib/vendor.samsung.hardware.audio@1.0.so
-vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so
+vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so;DISABLE_CHECKELF
 vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.r_submix.default.so
 vendor/lib64/hw/audio.sec_primary.default.so
@@ -1023,7 +1023,7 @@ vendor/bin/test_diag
 vendor/bin/test_model.json
 vendor/bin/time_client
 vendor/bin/vppservice
-vendor/bin/wvkprov
+vendor/bin/wvkprov;DISABLE_CHECKELF
 vendor/etc/SoundBoosterParam.txt
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/floating_feature.xml
@@ -1186,8 +1186,8 @@ vendor/lib/libsomxwmv7d.so
 vendor/lib/libsomxwmv8d.so
 vendor/lib/libspictrl.so
 vendor/lib/libspiris.so
-vendor/lib/libstagefright_bufferqueue_helper_vendor.so
-vendor/lib/libstagefright_omx_vendor.so
+vendor/lib/libstagefright_bufferqueue_helper_vendor.so;DISABLE_CHECKELF
+vendor/lib/libstagefright_omx_vendor.so;DISABLE_CHECKELF
 vendor/lib/libstagefright_soft_aacdec.so
 vendor/lib/libstagefright_soft_aacenc.so
 vendor/lib/libstagefright_soft_amrdec.so
