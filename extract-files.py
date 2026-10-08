@@ -38,6 +38,19 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    # Stock SONAMEs don't match filenames; check_elf_file rejects them.
+    # Nobody links these by SONAME (verified), they load by path.
+    (
+        'vendor/lib/H12QS_libTsAe.so',
+        'vendor/lib/H12QS_libTsAf.so',
+        'vendor/lib/H12QS_libTsPdafm.so',
+        'vendor/lib/W08QS_libTsAeFront.so',
+        'vendor/lib/W08QS_libTsAfFront.so',
+        'vendor/lib/libpassese.so',
+        'vendor/lib64/libflicker.so',
+        'vendor/lib64/libpassese.so',
+    ): blob_fixup().fix_soname(),
+
     'product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml': blob_fixup()
         .regex_replace('version="2.0"', 'version="1.0"'),
     'vendor/bin/hw/android.hardware.health@2.0-service.samsung': blob_fixup()
