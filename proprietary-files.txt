@@ -211,7 +211,7 @@ vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/libsnsapi.so
 vendor/lib/libswregistrationalgo.so
 vendor/lib/libswvdec.so
-vendor/lib/libvdis_core.so
+vendor/lib/libvdis_core.so;DISABLE_CHECKELF
 vendor/lib/libvdis_interface.so
 vendor/lib/libvideoutils.so
 vendor/lib64/camera/components/com.qti.eisv2.so
@@ -238,7 +238,7 @@ vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libsnsapi.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libswvdec.so
-vendor/lib64/libvdis_core.so
+vendor/lib64/libvdis_core.so;DISABLE_CHECKELF
 vendor/lib64/libvdis_interface.so
 
 # Camera-arcsoft
